@@ -1,0 +1,1013 @@
+{
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que busca no existe o ha sido movida.",
+    "backHome": "Volver al inicio"
+  },
+  "cookies": {
+    "message": "Utilizamos cookies para optimizar su experiencia en nuestro sitio web. Al continuar navegando, acepta nuestro uso de cookies.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "learnMore": "Más información"
+  },
+  "common": {
+    "home": "Inicio",
+    "requestAppointment": "Enviar solicitud",
+    "login": "Iniciar sesión",
+    "selectLanguage": "Seleccionar idioma",
+    "skipToContent": "Saltar al contenido",
+    "services": "Servicios",
+    "programs": "Programas",
+    "language": "Idioma",
+    "menu": "Menú",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "headerRequestAppointment": "Enviar solicitud"
+  },
+  "footer": {
+    "impressum": "Aviso legal",
+    "companyName": "Agencia médica <accent>de conserjería</accent>",
+    "contact": "Contacto",
+    "copyright": "© {year} Agencia médica de conserjería",
+    "allRightsReserved": "Todos los derechos reservados",
+    "financialAssistance": "Pro bono",
+    "privacyPolicy": "Política de privacidad",
+    "headquarters": "Sede central",
+    "address": "81735 Múnich, Alemania",
+    "theAgency": "La Agencia",
+    "membership": "Programas de participación",
+    "backToTop": "Volver arriba"
+  },
+  "home": {
+    "scrollReveal": {
+      "headline": "Coordinamos la atención para que avance con confianza"
+    },
+    "hero": {
+      "title": "Medical Concierge Agency",
+      "subtitle": "Excelencia en la atención médica",
+      "titleDark": "Medical Concierge Agency",
+      "titleMuted": "Excelencia en la atención médica",
+      "scrollToExplore": "Agentur für Patientenbetreuung Heorhii Hudiiev"
+    },
+    "careForward": {
+      "title": "Lo que hacemos",
+      "headline": "Desde la coordinación inicial del tratamiento hasta la gestión de cada etapa de su acompañamiento médico",
+      "subtitle": "",
+      "services": {
+        "consultation": {
+          "title": "Consultas individuales",
+          "point1": "sobre opciones de tratamiento",
+          "point2": "sobre clínicas especializadas y especialistas médicos",
+          "point3": "basadas en necesidades y prioridades personales",
+          "item1Title": "Opciones de tratamiento",
+          "item1Text": "con evaluación de los escenarios disponibles y las posibles direcciones",
+          "item2Title": "Clínicas y especialistas médicos",
+          "item2Text": "con selección de centros especializados y profesionales relevantes",
+          "item3Title": "Necesidades y preferencias personales",
+          "item3Text": "adaptadas a la solicitud individual, expectativas y preferencias"
+        },
+        "coordination": {
+          "title": "Coordinación de los procesos médicos",
+          "point1": "desde la programación de citas hasta la alineación de cada etapa",
+          "point2": "garantizando la colaboración interdisciplinaria",
+          "point3": "con un claro enfoque en la eficiencia y la claridad",
+          "item1Title": "Etapas del recorrido",
+          "item1Text": "desde la programación de citas hasta la coordinación de los pasos clave del tratamiento",
+          "item2Title": "Colaboración interdisciplinaria",
+          "item2Text": "con comunicación coordinada entre clínicas, médicos y todas las partes implicadas",
+          "item3Title": "Eficiencia y claridad",
+          "item3Text": "con un proceso transparente que minimiza la carga innecesaria para el paciente"
+        },
+        "documentation": {
+          "title": "Organización de documentación y comunicación",
+          "point1": "para informes médicos, altas y expedientes",
+          "point2": "mediante la transferencia estructurada de información médica",
+          "point3": "para asegurar una comunicación fluida entre todas las partes implicadas",
+          "item1Title": "Informes y expedientes",
+          "item1Text": "con gestión sistemática de documentos médicos y materiales especializados",
+          "item2Title": "Transferencia de información",
+          "item2Text": "con preparación estructurada de datos para clínicas y especialistas",
+          "item3Title": "Comunicación entre las partes",
+          "item3Text": "para un intercambio de información preciso y coordinado en cada etapa"
+        },
+        "languageDigital": {
+          "title": "Apoyo lingüístico y digital",
+          "point1": "mediante servicios de traducción e interpretación",
+          "point2": "para la traducción de documentación médica",
+          "point3": "para consultas digitales y acceso a plataformas",
+          "item1Title": "Traducción e interpretación",
+          "item1Text": "con traducción escrita y oral en contexto médico",
+          "item2Title": "Documentación médica",
+          "item2Text": "con traducción de informes de alta, diagnósticos y materiales complementarios",
+          "item3Title": "Plataformas en línea",
+          "item3Text": "con soporte para la conexión a servicios digitales y videoconsultas"
+        },
+        "travelTransfer": {
+          "title": "Servicios de viaje y traslado al más alto nivel",
+          "point1": "servicio personal de chófer y traslados",
+          "point2": "aviación ejecutiva y aviación médica",
+          "point3": "transporte sanitario coordinado profesionalmente",
+          "item1Title": "Traslado y chófer",
+          "item1Text": "con servicio personalizado para desplazamientos entre todos los puntos del recorrido",
+          "item2Title": "Soluciones de aviación",
+          "item2Text": "con organización de vuelos chárter y médicos cuando sea necesario",
+          "item3Title": "Transporte sanitario",
+          "item3Text": "con coordinación de un traslado seguro en el formato adecuado"
+        },
+        "personalSupport": {
+          "title": "Acompañamiento personal durante toda la estancia",
+          "point1": "con servicios de concierge y lifestyle cuidadosamente seleccionados",
+          "point2": "con asistencia individual en el lugar",
+          "point3": "con apoyo discreto adaptado a las preferencias personales",
+          "item1Title": "Servicio de concierge",
+          "item1Text": "con servicios de concierge cuidadosamente seleccionados y atención a solicitudes personales",
+          "item2Title": "Apoyo en el lugar",
+          "item2Text": "con asistencia individual durante la estancia y las citas",
+          "item3Title": "Preferencias personales",
+          "item3Text": "con acompañamiento discreto adaptado a sus necesidades específicas"
+        },
+        "aftercare": {
+          "title": "Acompañamiento continuo más allá del tratamiento",
+          "point1": "mediante la coordinación del seguimiento y la rehabilitación",
+          "point2": "mediante consultas de seguimiento",
+          "point3": "mediante una planificación y control transparente de los gastos",
+          "item1Title": "Seguimiento y rehabilitación",
+          "item1Text": "con coordinación del acompañamiento médico continuo",
+          "item2Title": "Consultas de seguimiento",
+          "item2Text": "con organización de contactos adicionales con especialistas",
+          "item3Title": "Costes y planificación",
+          "item3Text": "con control presupuestario transparente y próximos pasos"
+        }
+      }
+    },
+    "office": {
+      "overline": "",
+      "title": "Nuestras ubicaciones",
+      "subtitle": "",
+      "cities": {
+        "berlin": {
+          "name": "Berlín"
+        },
+        "hamburg": {
+          "name": "Hamburgo"
+        },
+        "cologne": {
+          "name": "Colonia"
+        },
+        "munich": {
+          "name": "Múnich"
+        }
+      }
+    },
+    "fullSupport": {
+      "overline": "",
+      "title": "Nuestro concepto",
+      "subtitle": "",
+      "principles": {
+        "individualSupport": "Acompañamiento individual y atención personalizada",
+        "expertise": "Competencia médica y organizativa",
+        "confidentiality": "Confidencialidad y fiabilidad",
+        "digitalPortal": "Portal digital para clientes",
+        "security": "Altos estándares de seguridad informática",
+        "concierge": "Servicios de concierge y lifestyle",
+        "coordination": "Coordinación eficiente",
+        "international": "Acompañamiento internacional desde una sola fuente"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQs",
+      "title": "Preguntas frecuentes",
+      "subtitle": "",
+      "delicateLabel": "Cuestiones delicadas",
+      "items": {
+        "services": {
+          "question": "¿Qué hace exactamente Medical Concierge Agency?",
+          "answer": "Aseguramos un ciclo completo de acompañamiento: análisis experto de documentos, selección de clínica, coordinación del proceso de tratamiento, traducción de documentación y apoyo logístico completo."
+        },
+        "clinicSelection": {
+          "question": "¿Ayudan a elegir clínica o médico en Alemania?",
+          "answer": "Sí. Sobre la base de los informes médicos y la especificidad de la solicitud, seleccionamos centros médicos especializados y médicos altamente especializados que poseen la experiencia necesaria."
+        },
+        "travel": {
+          "question": "¿Es necesario estar ya en Alemania para contactar con ustedes?",
+          "answer": "No, la etapa inicial del trabajo — análisis de documentos y formación del plan de tratamiento — se realiza a distancia antes de su llegada a Alemania."
+        },
+        "documents": {
+          "question": "¿Ayudan con los documentos, la traducción y la comunicación con las clínicas?",
+          "answer": "Sí. Realizamos la traducción profesional de los informes, estructuramos el expediente médico según los estándares de las clínicas alemanas y aseguramos la comunicación completa con los médicos tratantes."
+        },
+        "onSite": {
+          "question": "¿Hay acompañamiento en el lugar y ayuda con el viaje?",
+          "answer": "Sí. Proporcionamos servicio de Concierge, organizamos traslados, facilitamos intérpretes médicos para consultas presenciales y aseguramos la coordinación en todas las etapas de la estancia."
+        },
+        "start": {
+          "question": "¿Cómo empezar a trabajar con ustedes?",
+          "answer": "Deje una solicitud en el sitio web. Nuestro especialista se pondrá en contacto con usted para un análisis inicial de la situación y la determinación de la estrategia de acción futura."
+        }
+      }
+    },
+    "approach": {
+      "overline": "Estándares operativos",
+      "title": "Nuestro concepto",
+      "subtitle": "",
+      "principles": {
+        "individualSupport": "Acompañamiento individual y atención personalizada",
+        "expertise": "Competencia médica y organizativa",
+        "confidentiality": "Confidencialidad y fiabilidad",
+        "digitalPortal": "Portal digital para clientes",
+        "security": "Altos estándares de seguridad informática",
+        "concierge": "Servicios de concierge y lifestyle",
+        "coordination": "Coordinación eficiente",
+        "international": "Acompañamiento internacional desde una sola fuente"
+      }
+    },
+    "journey": {
+      "title": "Lo que hacemos",
+      "headlineDark": "Desde la coordinación inicial del tratamiento",
+      "headlineMuted": "hasta la gestión de cada etapa de su acompañamiento médico",
+      "subtitle": "",
+      "services": {
+        "consultation": {
+          "title": "Consultas individuales",
+          "point1": "sobre opciones de tratamiento",
+          "point2": "sobre clínicas especializadas y especialistas médicos",
+          "point3": "basadas en necesidades y prioridades personales",
+          "item1Title": "Opciones de tratamiento",
+          "item1Text": "con evaluación de los escenarios disponibles y las posibles direcciones",
+          "item2Title": "Clínicas y especialistas médicos",
+          "item2Text": "con selección de centros especializados y profesionales relevantes",
+          "item3Title": "Necesidades y preferencias personales",
+          "item3Text": "adaptadas a la solicitud individual, expectativas y preferencias",
+          "label": "Consultas individuales"
+        },
+        "coordination": {
+          "title": "Coordinación de los procesos médicos",
+          "point1": "desde la programación de citas hasta la alineación de cada etapa",
+          "point2": "garantizando la colaboración interdisciplinaria",
+          "point3": "con un claro enfoque en la eficiencia y la claridad",
+          "item1Title": "Etapas del recorrido",
+          "item1Text": "desde la programación de citas hasta la coordinación de los pasos clave del tratamiento",
+          "item2Title": "Colaboración interdisciplinaria",
+          "item2Text": "con comunicación coordinada entre clínicas, médicos y todas las partes implicadas",
+          "item3Title": "Eficiencia y claridad",
+          "item3Text": "con un proceso transparente que minimiza la carga innecesaria para el paciente",
+          "label": "Coordinación de los procesos médicos"
+        },
+        "documentation": {
+          "title": "Organización de documentación y comunicación",
+          "point1": "para informes médicos, altas y expedientes",
+          "point2": "mediante la transferencia estructurada de información médica",
+          "point3": "para asegurar una comunicación fluida entre todas las partes implicadas",
+          "item1Title": "Informes y expedientes",
+          "item1Text": "con gestión sistemática de documentos médicos y materiales especializados",
+          "item2Title": "Transferencia de información",
+          "item2Text": "con preparación estructurada de datos para clínicas y especialistas",
+          "item3Title": "Comunicación entre las partes",
+          "item3Text": "para un intercambio de información preciso y coordinado en cada etapa",
+          "label": "Organización de documentación y comunicación"
+        },
+        "languageDigital": {
+          "title": "Apoyo lingüístico y digital",
+          "point1": "mediante servicios de traducción e interpretación",
+          "point2": "para la traducción de documentación médica",
+          "point3": "para consultas digitales y acceso a plataformas",
+          "item1Title": "Traducción e interpretación",
+          "item1Text": "con traducción escrita y oral en contexto médico",
+          "item2Title": "Documentación médica",
+          "item2Text": "con traducción de informes de alta, diagnósticos y materiales complementarios",
+          "item3Title": "Plataformas en línea",
+          "item3Text": "con soporte para la conexión a servicios digitales y videoconsultas",
+          "label": "Apoyo lingüístico y digital"
+        },
+        "travelTransfer": {
+          "title": "Servicios de viaje y traslado al más alto nivel",
+          "point1": "servicio personal de chófer y traslados",
+          "point2": "aviación ejecutiva y aviación médica",
+          "point3": "transporte sanitario coordinado profesionalmente",
+          "item1Title": "Traslado y chófer",
+          "item1Text": "con servicio personalizado para desplazamientos entre todos los puntos del recorrido",
+          "item2Title": "Soluciones de aviación",
+          "item2Text": "con organización de vuelos chárter y médicos cuando sea necesario",
+          "item3Title": "Transporte sanitario",
+          "item3Text": "con coordinación de un traslado seguro en el formato adecuado",
+          "label": "Servicios de viaje y traslado al más alto nivel"
+        },
+        "personalSupport": {
+          "title": "Acompañamiento personal durante toda la estancia",
+          "point1": "con servicios de concierge y lifestyle cuidadosamente seleccionados",
+          "point2": "con asistencia individual en el lugar",
+          "point3": "con apoyo discreto adaptado a las preferencias personales",
+          "item1Title": "Servicio de concierge",
+          "item1Text": "con servicios de concierge cuidadosamente seleccionados y atención a solicitudes personales",
+          "item2Title": "Apoyo en el lugar",
+          "item2Text": "con asistencia individual durante la estancia y las citas",
+          "item3Title": "Preferencias personales",
+          "item3Text": "con acompañamiento discreto adaptado a sus necesidades específicas",
+          "label": "Acompañamiento personal durante toda la estancia"
+        },
+        "aftercare": {
+          "title": "Acompañamiento continuo más allá del tratamiento",
+          "point1": "mediante la coordinación del seguimiento y la rehabilitación",
+          "point2": "mediante consultas de seguimiento",
+          "point3": "mediante una planificación y control transparente de los gastos",
+          "item1Title": "Seguimiento y rehabilitación",
+          "item1Text": "con coordinación del acompañamiento médico continuo",
+          "item2Title": "Consultas de seguimiento",
+          "item2Text": "con organización de contactos adicionales con especialistas",
+          "item3Title": "Costes y planificación",
+          "item3Text": "con control presupuestario transparente y próximos pasos",
+          "label": "Acompañamiento continuo más allá del tratamiento"
+        }
+      }
+    },
+    "locations": {
+      "overline": "Ciudades clave de acompañamiento y coordinación en Alemania",
+      "title": "Nuestras ubicaciones",
+      "titleAccent": "",
+      "subtitle": "",
+      "cities": {
+        "berlin": {
+          "name": "Berlín"
+        },
+        "hamburg": {
+          "name": "Hamburgo"
+        },
+        "cologne": {
+          "name": "Colonia"
+        },
+        "munich": {
+          "name": "Múnich"
+        }
+      }
+    },
+    "scrollRail": {
+      "ariaLabel": "Secciones de inicio",
+      "labels": {
+        "hero": "Inicio",
+        "approach": "Concepto",
+        "journey": "Lo que hacemos",
+        "locations": "Oficinas",
+        "outro": "Solicitud",
+        "faq": "FAQs",
+        "contact": "Contacto"
+      }
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "Contáctenos",
+      "subtitle": "Deje una solicitud — nos pondremos en contacto con usted dentro de un día hábil.",
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Juan Pérez",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "+49 ...",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Describa brevemente su situación o solicitud",
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "success": "Gracias, su solicitud ha sido recibida. Nos pondremos en contacto en breve.",
+      "rateLimited": "Demasiadas solicitudes. Espere un momento e inténtelo de nuevo.",
+      "error": "No se pudo enviar. Inténtelo de nuevo o escriba a contact@gmed-health.com.",
+      "nameError": "Indique su nombre (mín. 2 caracteres)",
+      "emailError": "Ingrese un correo electrónico válido",
+      "phoneError": "Ingrese un número de teléfono válido"
+    },
+    "meta": {
+      "title": "Concierge médico en Alemania — coordinación | GMED",
+      "description": "Concierge médico premium en Alemania. Coordinación completa de clínicas, segunda opinión, visa médica, traducción y acompañamiento del paciente en 4 idiomas."
+    }
+  },
+  "appointment": {
+    "title": "Enviar solicitud",
+    "subtitle": "Envíenos una solicitud y nuestro equipo se pondrá en contacto con usted a la brevedad.",
+    "backToSelection": "← Volver a la selección",
+    "freeService": {
+      "title": "Pro bono",
+      "description1": "Entendemos que una atención médica de excelencia puede suponer un desafío financiero. La Medical Concierge Agency ofrece un programa pro bono limitado para pacientes que necesitan apoyo con los gastos médicos.",
+      "description2": "Nuestro comité médico revisa cuidadosamente cada solicitud y brinda apoyo en función de los recursos disponibles.",
+      "priority": "Casos prioritarios:",
+      "priorityText": "Damos prioridad a casos pediátricos, situaciones médicas agudas y pacientes en circunstancias excepcionales.",
+      "note": "Nota: Las solicitudes de servicios gratuitos se evalúan individualmente según la necesidad médica y la capacidad disponible. Le informaremos sobre el estado de su solicitud en un plazo de 5 a 7 días hábiles.",
+      "description1Dark": "Entendemos que una atención médica de excelencia puede suponer un desafío financiero. La Medical Concierge Agency ofrece un programa pro bono limitado para pacientes que necesitan apoyo con los gastos médicos.",
+      "description1Accent": "",
+      "description1Tail": "",
+      "priorityAccent": "",
+      "meta": {
+        "title": "Pro bono — acompañamiento médico gratuito | GMED",
+        "description": "GMED asigna cuotas anuales Pro bono para acompañamiento médico gratuito en casos de emergencia y pediátricos. Revisión en hasta 7 días hábiles."
+      }
+    },
+    "newPatient": {
+      "trustBanner": "Sus datos están encriptados y seguros",
+      "pathTree": {
+        "zones": {
+          "entry": "Inicio",
+          "eligibility": "Elegibilidad y viaje",
+          "profile": "Perfil y contacto",
+          "care": "Solicitud medica",
+          "insurance": "Seguro",
+          "finish": "Revision final"
+        },
+        "welcome": "Bienvenido",
+        "member-check": "Estado del cliente",
+        "account-check": "Acceso al portal",
+        "location": "Residencia",
+        "become-member": "Para quién",
+        "outside-travel": "Capacidad de viaje",
+        "outside-records": "Informes médicos",
+        "records-language": "Idioma de los informes",
+        "outside-documents": "Documentos de viaje",
+        "outside-exit-travel": "Viaje no posible",
+        "health-intro": "Estado de salud",
+        "patient-name": "Nombre completo",
+        "patient-dob": "Fecha de nacimiento",
+        "phone": "Datos de contacto",
+        "whatsapp-consent": "WhatsApp",
+        "email-consent": "Consentimiento de e-mail",
+        "no-contact-exit": "Sin posibilidad de contacto",
+        "legal-sex": "Sexo (según documento)",
+        "interpreter": "Intérprete",
+        "primary-language": "Idioma",
+        "services": "Servicios adicionales",
+        "address": "Dirección",
+        "concern-intro": "Motivo de consulta",
+        "primary-concern": "Diagnóstico principal",
+        "health-risk": "Riesgos de viaje",
+        "current-treatment": "Tratamiento actual",
+        "additional-concerns": "Información adicional",
+        "insurance-intro": "Seguro médico",
+        "insurance": "Estado del seguro",
+        "insurance-coverage": "Cobertura de gastos",
+        "wrap-up-intro": "Conclusión",
+        "preferred-location": "Ciudad preferida",
+        "visit-timing": "Fechas de viaje",
+        "anything-else": "Anotaciones",
+        "review": "Revisar y enviar"
+      },
+      "back": "Atrás",
+      "continue": "Continuar",
+      "validation": {
+        "nameMin": "Mínimo 2 caracteres",
+        "emailInvalid": "Introduce un email válido",
+        "phoneMin": "Introduce un número de teléfono",
+        "streetMin": "Introduce la dirección",
+        "cityMin": "Introduce la ciudad",
+        "zipInvalid": "Introduce 5 dígitos o 0",
+        "languageMin": "Introduce el idioma"
+      },
+      "travelPatient": {
+        "title": "¿Tiene la posibilidad de viajar a Alemania para recibir tratamiento?",
+        "yes": "Sí",
+        "no": "No"
+      },
+      "recordsPatient": {
+        "title": "¿Puede proporcionarnos sus informes médicos actuales?",
+        "yes": "Sí",
+        "no": "No",
+        "none": "No dispongo de informes médicos"
+      },
+      "documentsPatient": {
+        "title": "¿Cuenta con los documentos necesarios para viajar a Alemania?",
+        "yes": "Sí",
+        "no": "No"
+      },
+      "exitNoTravelPatient": {
+        "title": "Gracias. Actualmente solo organizamos tratamientos en Alemania.",
+        "description": "Si en el futuro tiene la posibilidad de viajar, estaremos encantados de recibir su solicitud.",
+        "button": "Finalizar solicitud"
+      },
+      "exitNoRecordsPatient": {
+        "title": "Gracias. Para realizar una evaluación médica profesional, requerimos sus informes médicos.",
+        "description": "Por favor, retome esta solicitud una vez que disponga de los informes o cartas médicas correspondientes.",
+        "button": "Finalizar solicitud"
+      },
+      "address": {
+        "question": "Por último, necesitamos su dirección de residencia.",
+        "country": "País",
+        "selectCountry": "Seleccionar país",
+        "street": "Calle y número",
+        "city": "Ciudad",
+        "state": "Estado/Provincia/Región (ingrese 0 si no aplica)",
+        "postalCode": "Código postal (ingrese 0 si no aplica)"
+      },
+      "welcome": {
+        "title": "Comencemos",
+        "subtitle": "Le haremos algunas preguntas para preparar de manera óptima la consulta con su coordinador médico.",
+        "continue": "Continuar",
+        "emergency": "En caso de una emergencia médica, llame inmediatamente al 112 o al 911.",
+        "privacyPolicy": "Leer nuestra política de privacidad"
+      },
+      "memberCheck": {
+        "title": "¿Ha contactado con nosotros anteriormente?",
+        "isMember": "Sí",
+        "notMember": "No, es mi primera solicitud"
+      },
+      "accountCheck": {
+        "title": "¿Ya tiene acceso a nuestro portal del cliente?",
+        "hasAccount": "Sí, ya tengo una cuenta",
+        "noAccount": "No, quiero crear una nueva solicitud"
+      },
+      "location3": {
+        "title": "¿En qué país reside actualmente?",
+        "subtitle": "Esta información nos ayuda a evaluar los requisitos de visado y la logística del viaje.",
+        "germany": "En Alemania",
+        "euNotGermany": "En la UE (fuera de Alemania)",
+        "outsideEu": "Fuera de la UE"
+      },
+      "becomeMember": {
+        "title": "¿Para quién envía esta solicitud?",
+        "yes": "Para mí",
+        "no": "Para otra persona"
+      },
+      "healthIntro": {
+        "title": "Comencemos con su información médica",
+        "subtitle": "En esta sección recopilaremos datos básicos de salud para comprender mejor sus necesidades de atención.",
+        "start": "Comenzar"
+      },
+      "healthTreatment": {
+        "title": "¿Se encuentra actualmente bajo algún tratamiento médico?",
+        "yes": "Sí",
+        "no": "No"
+      },
+      "healthRisk": {
+        "title": "¿Existe alguna contraindicación médica que le impida viajar en avión a Alemania?",
+        "yes": "Sí",
+        "no": "No",
+        "disclaimer": "Tenga en cuenta: la evaluación de su capacidad para viajar y la responsabilidad por los posibles riesgos de salud relacionados recaen exclusivamente sobre usted."
+      },
+      "sharedPatientName": {
+        "title": "¿Cuál es su nombre?",
+        "firstName": "Nombre",
+        "middleName": "Segundo nombre (opcional)",
+        "lastName": "Apellido",
+        "suffix": "Sufijo (opcional)"
+      },
+      "sharedDob": {
+        "title": "¿Cuál es su fecha de nacimiento?",
+        "day": "DD",
+        "month": "MM",
+        "year": "AAAA",
+        "hint": "Ejemplo: 14 09 1987",
+        "invalid": "Por favor, introduzca una fecha de nacimiento válida."
+      },
+      "sharedLegalSex": {
+        "title": "Por favor, indique su sexo legal.",
+        "subtitle": "Seleccione el sexo tal como aparece en su documento de identidad oficial.",
+        "female": "Femenino",
+        "male": "Masculino",
+        "diverse": "Diverso",
+        "noEntry": "Prefiero no indicarlo"
+      },
+      "sharedPrimaryLanguage": {
+        "title": "¿Cuál es su idioma principal de comunicación?",
+        "subtitle": "Le asignaremos un coordinador que hable su idioma."
+      },
+      "sharedInterpreter": {
+        "title": "¿Necesitará un intérprete médico durante sus citas en Alemania?",
+        "yes": "Sí",
+        "no": "No, hablo alemán con fluidez"
+      },
+      "emailConsent": {
+        "title": "¿Está de acuerdo en comunicarse con nosotros por correo electrónico?",
+        "yes": "Sí",
+        "yesDisclaimer": "Entiendo que las comunicaciones por correo electrónico pueden no ser seguras y están sujetas a las políticas de privacidad y a las condiciones de uso de mi proveedor de correo.",
+        "no": "No"
+      },
+      "whatsappConsentNew": {
+        "title": "¿Podemos contactarle a través de WhatsApp?",
+        "yes": "Sí",
+        "yesDisclaimer": "Entiendo que las comunicaciones por WhatsApp pueden no ser seguras y están sujetas a las políticas de privacidad y a las condiciones de uso de WhatsApp.",
+        "no": "No",
+        "numberTitle": "¿Cuál es su número de WhatsApp?"
+      },
+      "phoneStep": {
+        "title": "Por favor, introduzca sus datos de contacto.",
+        "phoneNumber": "Número de teléfono",
+        "emailLabel": "Correo electrónico"
+      },
+      "recordsLanguage": {
+        "title": "¿Sus informes médicos ya están traducidos al <b>alemán</b> o al <b>inglés</b>?",
+        "yes": "Sí",
+        "no": "No"
+      },
+      "noContactExit": {
+        "title": "Lamentablemente, no podemos ponernos en contacto con usted.",
+        "description": "Dado que no podemos localizarle por correo electrónico ni por WhatsApp, le rogamos que nos llame a los números indicados en nuestra web. Sus datos actuales se eliminarán en 3 días.",
+        "button": "Volver al inicio"
+      },
+      "concernIntro": {
+        "title": "Háblenos de su motivo de consulta",
+        "description": "Describa brevemente su diagnóstico o síntomas. Esto nos ayudará a encontrar al especialista más adecuado para su caso.",
+        "start": "Comenzar"
+      },
+      "primaryConcernText": {
+        "title": "¿Cuál es su principal motivo de consulta o pregunta?",
+        "placeholder": "Describa brevemente su situación...",
+        "attachmentsLabel": "Archivos (opcional)",
+        "attachmentsHint": "Si ya dispone de documentos, puede adjuntarlos aquí.",
+        "attachmentsAction": "Agregar archivos",
+        "attachmentsFormats": "Se admiten ZIP, PDF e imágenes. Hasta 6 archivos, de hasta 10 MB cada uno.",
+        "removeFile": "Eliminar archivo",
+        "invalidFileType": "Solo se pueden cargar archivos ZIP, PDF o imágenes.",
+        "fileTooLarge": "Uno de los archivos supera el límite de 10 MB.",
+        "totalFilesTooLarge": "El tamaño total de los archivos es demasiado grande. Reduzca el volumen total de la carga.",
+        "tooManyFiles": "Puede agregar hasta 6 archivos."
+      },
+      "additionalConcerns": {
+        "title": "¿Existen enfermedades previas u otros detalles que debamos conocer?",
+        "optional": "(Opcional)"
+      },
+      "services": {
+        "title": "¿Cuáles de los siguientes servicios premium necesitará durante su estancia?",
+        "subtitle": "Puede seleccionar varios.",
+        "driver": "Conductor privado y traslados",
+        "driverLearnMore": "Más información sobre nuestros traslados",
+        "driverDetails": "Traslados privados entre aeropuerto, clínica y alojamiento con horarios coordinados y conductor dedicado.",
+        "concierge": "Servicios de conserjería",
+        "conciergeLearnMore": "Más información sobre nuestro servicio de conserjería",
+        "conciergeDetails": "Su asistente personal: reservas, selección de eventos, coordinación cotidiana y gestión de encargos discretos.",
+        "medicalTransport": "Transporte médico terrestre",
+        "medicalTransportLearnMore": "Más información sobre nuestro transporte médico",
+        "medicalTransportDetails": "Transporte terrestre con supervisión médica cuando un traslado estándar no es adecuado para el estado del paciente.",
+        "airAmbulance": "Ambulancia aérea (Air Ambulance)",
+        "airAmbulanceLearnMore": "Más información sobre nuestra aviación médica",
+        "airAmbulanceDetails": "Coordinación de ambulancia aérea para casos de mayor complejidad que requieren personal y equipo médico durante el traslado.",
+        "businessAviation": "Jet privado / Aviación ejecutiva",
+        "businessAviationLearnMore": "Más información sobre nuestra aviación ejecutiva",
+        "businessAviationDetails": "Organización de vuelos privados para viajes urgentes que requieren flexibilidad, privacidad y logística a medida.",
+        "none": "Ninguno de los servicios mencionados",
+        "notSure": "Aún no estoy seguro/a",
+        "close": "Cerrar"
+      },
+      "insuranceIntro": {
+        "title": "Información sobre su seguro médico",
+        "subtitle": "Si tiene un seguro médico privado o internacional, puede indicarlo aquí. Las opciones de pago privado las discutiremos personalmente.",
+        "start": "Siguiente"
+      },
+      "insuranceStep": {
+        "title": "¿Cuenta con un seguro médico?",
+        "yes": "Sí",
+        "no": "No"
+      },
+      "insuranceCoverage": {
+        "title": "¿Su seguro cubre los gastos de tratamientos médicos en Alemania?",
+        "yes": "Sí",
+        "no": "No",
+        "notSure": "No estoy seguro/a"
+      },
+      "wrapUpIntro": {
+        "title": "Últimos detalles de su viaje",
+        "subtitle": "Solo necesitamos confirmar sus preferencias de ubicación y fechas. Nuestro equipo se pondrá en contacto con usted en un plazo de 3 días hábiles.",
+        "start": "Finalizar"
+      },
+      "preferredLocation": {
+        "title": "¿Tiene alguna preferencia sobre la ciudad donde desea recibir tratamiento?",
+        "subtitle": "Priorizamos la experiencia médica, pero tendremos en cuenta sus preferencias.",
+        "noPreference": "Sin preferencia (la experiencia médica decide)",
+        "munich": "Múnich",
+        "berlin": "Berlín",
+        "hamburg": "Hamburgo",
+        "cologne": "Colonia"
+      },
+      "visitTiming": {
+        "title": "¿Cuándo tiene previsto viajar a Alemania?",
+        "asap": "Lo antes posible (Urgencia)",
+        "nextFewMonths": "En los próximos meses",
+        "notSure": "Aún no está decidido",
+        "note": "Las fechas exactas se coordinarán en función de la disponibilidad de los médicos y de su plan de tratamiento."
+      },
+      "anythingElse": {
+        "title": "¿Desea añadir algo más?",
+        "subtitle": "Peticiones especiales sobre el alojamiento, la dieta u otras necesidades.",
+        "optional": "(Opcional)"
+      },
+      "reviewStep": {
+        "title": "Por favor, revise sus datos antes de enviarlos.",
+        "consent1": "Acepto que GMED pueda utilizar un sistema automatizado de marcación telefónica, mensajes de voz pregrabados o sintéticos, mensajes de texto y correo electrónico para contactarme en los números y la dirección de correo electrónico que he proporcionado.",
+        "consent2": "Entiendo que puedo ser contactado en relación con mi atención médica, incluso para programar una cita.",
+        "consent3": "Entiendo que, cuando se me contacte de esta manera, se me dará la oportunidad de rechazar comunicaciones futuras similares.",
+        "consent4": "He leído y confirmado la recepción del Aviso sobre las prácticas de privacidad.",
+        "consentRequired": "Confirme este punto.",
+        "consentIncompleteError": "Para enviar la solicitud, debe confirmar los 4 puntos.",
+        "incompleteError": "Por favor, complete todos los campos obligatorios antes de enviar la solicitud.",
+        "submit": "Enviar solicitud",
+        "submitting": "Enviando...",
+        "successTitle": "¡Gracias por su solicitud!",
+        "successMessage": "Sus datos se han transmitido de forma segura. Su coordinador médico personal se pondrá en contacto con usted en un plazo de 3 días hábiles.",
+        "backToHome": "Volver al inicio",
+        "startOver": "Iniciar nueva solicitud"
+      },
+      "reviewSummary": {
+        "title": "Resumen de la solicitud",
+        "eligibility": "Elegibilidad",
+        "patient": "Paciente",
+        "contact": "Contacto",
+        "request": "Detalles de la solicitud",
+        "membership": "Para quién es la solicitud",
+        "location": "Lugar de residencia",
+        "travel": "Viaje a Alemania",
+        "records": "Informes médicos",
+        "recordsLanguage": "Informes en alemán o inglés",
+        "travelDocuments": "Documentos de viaje",
+        "name": "Nombre",
+        "dateOfBirth": "Fecha de nacimiento",
+        "legalSex": "Sexo legal",
+        "interpreter": "Intérprete",
+        "primaryLanguage": "Idioma principal",
+        "phone": "Teléfono",
+        "email": "Correo electrónico",
+        "whatsapp": "WhatsApp",
+        "services": "Servicios adicionales",
+        "address": "Dirección",
+        "primaryConcern": "Motivo principal",
+        "healthRisk": "Riesgo para viajar",
+        "currentTreatment": "Tratamiento actual",
+        "additionalConcerns": "Detalles adicionales",
+        "attachments": "Archivos adjuntos",
+        "insurance": "Seguro médico",
+        "insuranceCoverage": "Cobertura en Alemania",
+        "preferredLocation": "Ubicación preferida",
+        "visitTiming": "Plazo previsto",
+        "message": "Notas adicionales",
+        "yes": "Sí",
+        "no": "No",
+        "notProvided": "No indicado",
+        "notSure": "No estoy seguro/a"
+      },
+      "greeting": {
+        "title": "Enviar solicitud",
+        "subtitle": "Le ayudaremos a organizar su tratamiento en Alemania — desde la selección de la clínica hasta el acompañamiento en el lugar. Antes de empezar, esto es lo que le espera.",
+        "points": {
+          "1": {
+            "title": "Formulario breve",
+            "text": "Unos pocos pasos sobre usted, el motivo de su solicitud y su situación actual."
+          },
+          "2": {
+            "title": "Confidencialidad",
+            "text": "Sus datos están protegidos y se usan únicamente para atender su solicitud."
+          },
+          "3": {
+            "title": "Nuestra respuesta",
+            "text": "Un especialista se pondrá en contacto con usted en un día hábil."
+          }
+        },
+        "start": "Comenzar",
+        "note": "Tarda 3–5 minutos. Su progreso se guarda por si necesita continuar más tarde."
+      }
+    },
+    "returningPatient": {
+      "title": "Cliente existente",
+      "formPending": "Formulario en desarrollo...",
+      "back": "Atrás"
+    },
+    "physician": {
+      "title": "Derivación médica",
+      "formPending": "Formulario en desarrollo...",
+      "back": "Atrás"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 01.01.2026",
+    "intro1": "La protección de sus datos personales y de salud es nuestra máxima prioridad. Nos comprometemos a mantener en estricta confidencialidad toda la información que nos proporcione en el marco de nuestros servicios.",
+    "intro2": "Esta Política de Privacidad explica de forma transparente cómo recopilamos, utilizamos, protegemos y compartimos sus datos cuando utiliza nuestras plataformas digitales y servicios.",
+    "intro3": "Por favor, lea detenidamente estas disposiciones. Al utilizar nuestro sitio web y nuestros servicios, usted acepta las prácticas aquí descritas.",
+    "intro4": "Encontrará información detallada sobre la protección de datos en las secciones siguientes.",
+    "dataCollection": {
+      "title": "Recopilación de datos",
+      "text": "Diferenciamos principalmente dos categorías de datos:",
+      "item1": "Datos técnicos anonimizados (datos no personales). Información general de uso que garantiza el funcionamiento del sitio web y que no permite identificarle.",
+      "item2": "Datos personales y médicos. Información que usted nos proporciona de forma activa y consciente, como su nombre, datos de contacto, informes médicos y cartas de derivación.",
+      "text2": "El responsable del tratamiento de datos es la Medical Concierge Agency mencionada en el Aviso legal."
+    },
+    "howWeCollect": {
+      "title": "Cómo recopilamos sus datos",
+      "text1": "Los datos personales y de salud se recopilan principalmente cuando usted completa formularios en nuestro sitio web o cuando nos envía documentos por correo electrónico o portales seguros.",
+      "text2": "Le advertimos expresamente que la transmisión de datos sin cifrar por Internet (por ejemplo, mediante un correo electrónico estándar) puede presentar vulnerabilidades de seguridad. Recomendamos utilizar canales cifrados para el envío de documentos médicos sensibles."
+    },
+    "purpose": {
+      "title": "Finalidad del tratamiento de datos",
+      "text": "Sus datos se utilizan exclusivamente para los siguientes fines:",
+      "item1": "Para garantizar la funcionalidad técnica de nuestro sitio web;",
+      "item2": "Para procesar su solicitud médica y organizar su tratamiento;",
+      "item3": "Para asegurar la calidad y optimizar nuestros servicios;",
+      "item4": "Para auditorías internas y análisis estadísticos;",
+      "item5": "Para enviarle notificaciones importantes relacionadas con el servicio.",
+      "text2": "El tratamiento de sus datos personales solo se lleva a cabo si se cumple al menos una de las siguientes condiciones legales:",
+      "legal1": "El tratamiento es necesario para la ejecución de un contrato (por ejemplo, el contrato de tratamiento);",
+      "legal2": "El tratamiento es necesario para el cumplimiento de una obligación legal;",
+      "legal3": "El tratamiento se basa en nuestros intereses legítimos, siempre que sus derechos fundamentales no prevalezcan."
+    },
+    "sharing": {
+      "title": "Transmisión de datos a terceros",
+      "text1": "Los metadatos técnicos pueden ser procesados por nuestros proveedores de servicios de TI certificados (por ejemplo, proveedores de alojamiento), quienes actúan siguiendo estrictamente nuestras instrucciones.",
+      "text2": "Los documentos médicos y los datos de los pacientes se transmiten exclusivamente a terceros verificados que participan de manera indispensable en su proceso de tratamiento (clínicas, médicos especialistas, traductores médicos).",
+      "text3": "La divulgación de datos a las autoridades solo se lleva a cabo en el marco de normativas legales imperativas."
+    },
+    "rights": {
+      "title": "Sus derechos",
+      "text": "Usted tiene derecho a solicitar información gratuita sobre sus datos personales almacenados en cualquier momento. Además, tiene derecho a la rectificación, el bloqueo o la eliminación (\"derecho al olvido\") de estos datos. Para ello, simplemente póngase en contacto con su coordinador personal."
+    },
+    "hosting": {
+      "title": "Infraestructura TI y Alojamiento",
+      "text1": "Nuestros sistemas digitales y bases de datos CRM operan en centros de datos de alta seguridad de proveedores en la nube fiables.",
+      "text2": "El almacenamiento de datos primario se realiza en servidores dentro de la Unión Europea, cumpliendo con los estrictos estándares del RGPD.",
+      "text3": "Todos los socios de TI actúan como encargados del tratamiento y están sujetos a los más estrictos acuerdos de confidencialidad y seguridad."
+    },
+    "cookies": {
+      "title": "Uso de Cookies",
+      "text1": "Nuestro sitio web utiliza cookies para optimizar la experiencia del usuario y garantizar la correcta prestación de nuestros servicios digitales.",
+      "text2": "Sin su consentimiento expreso, en ningún caso utilizaremos sus datos para fines publicitarios externos ni los venderemos a redes de publicidad."
+    },
+    "storage": {
+      "title": "Almacenamiento de datos",
+      "text1": "Para garantizar nuestros servicios globales, colaboramos con socios internacionales. Nos aseguramos de que el nivel de protección cumpla siempre con los estándares europeos de protección de datos.",
+      "text2": "Los datos médicos sensibles se procesan preferentemente dentro de la UE y están sujetos al secreto médico."
+    },
+    "retention": {
+      "title": "Plazos de conservación",
+      "text": "Almacenamos sus datos personales únicamente durante el tiempo necesario para la organización de su tratamiento o para cumplir con los plazos legales de conservación. Para solicitar la eliminación anticipada de sus datos, basta con enviar un correo electrónico a contact@gmed-health.com."
+    },
+    "security": {
+      "title": "Seguridad de los datos",
+      "text1": "Empleamos tecnologías de cifrado y cortafuegos de última generación para proteger al máximo sus datos en nuestros servidores.",
+      "text2": "No obstante, ninguna transmisión de datos a través de Internet puede garantizar una seguridad del 100%.",
+      "text3": "Por ello, le pedimos que colabore activamente: utilice contraseñas seguras y evite el uso de redes públicas para la transmisión de datos.",
+      "text4": "El envío de datos de salud a través de mensajería instantánea (como WhatsApp) se realiza siempre bajo su propia responsabilidad."
+    },
+    "minors": {
+      "title": "Protección de menores",
+      "text1": "Nuestra agencia coordina tratamientos para pacientes de todas las edades, incluidos niños y adolescentes.",
+      "text2": "Los datos médicos de menores se recopilan y procesan exclusivamente con el consentimiento expreso y por escrito de sus padres o tutores legales.",
+      "text3": "Los padres o tutores tienen acceso total al perfil del menor en cualquier momento y pueden solicitar su eliminación.",
+      "text4": "Si tiene alguna pregunta sobre el perfil de su hijo, póngase en contacto con el coordinador asignado."
+    },
+    "updates": {
+      "title": "Actualizaciones de esta Política de Privacidad",
+      "text": "Debido a desarrollos legales o técnicos, nos reservamos el derecho de adaptar esta Política de Privacidad ocasionalmente. La versión actual en vigor se encuentra siempre disponible en esta página."
+    }
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Introduzca su contraseña",
+    "phoneOrEmail": "Número de teléfono o correo electrónico",
+    "identifierRequired": "Por favor, introduzca su teléfono o correo electrónico",
+    "invalidPhoneOrEmail": "Formato no válido (ej. +4917612345678 o nombre@ejemplo.com)",
+    "passwordRequired": "Por favor, introduzca su contraseña",
+    "passwordMinLength": "La contraseña debe tener al menos 6 caracteres",
+    "applicationPending": "Su perfil está siendo evaluado. El acceso se habilitará en breve.",
+    "confidentialityNotice": "Sus datos se transmiten de forma cifrada y se tratan con estricta confidencialidad.",
+    "privacyPolicyLink": "Política de procesamiento de datos personales",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña",
+    "welcomeTitle": "Portal del cliente",
+    "welcomeSubtitle": "Inicie sesión para gestionar su plan de tratamiento",
+    "payWithMollie": "Pagar con Mollie",
+    "securePoweredBy": "Pagos seguros —"
+  },
+  "impressumPage": {
+    "title": "Aviso legal",
+    "legalNameTitle": "Nombre legal",
+    "addressTitle": "Dirección",
+    "companyName": "Agentur für Patientenbetreuung Heorhii Hudiiev",
+    "contact": "Contacto",
+    "vatTitle": "NIF / IVA",
+    "vatLegal": "Número de identificación a efectos del IVA según el § 27 a de la Ley del IVA alemana:",
+    "contactPrompt": "Para consultas legales o preguntas sobre el sitio web, contáctenos en:"
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "description": "Se produjo un error inesperado. Por favor, inténtelo de nuevo o vuelva a la página principal.",
+    "tryAgain": "Intentar de nuevo"
+  },
+  "membership": {
+    "meta": {
+      "title": "Programas de concierge — Standard, Care, Reserve | GMED",
+      "description": "Compare los programas GMED Standard, Care y Reserve: acceso al portal, coordinación médica, supervisión proactiva y acompañamiento personal."
+    },
+    "eyebrow": "Servicios GMED",
+    "title": "Programas de servicio médico de conserjería",
+    "subtitle": "Tres niveles de acompañamiento: desde la coordinación bajo demanda hasta el servicio personal de concierge y una supervisión clínica ampliada.",
+    "intro": "La organización del trabajo es posible en dos formatos: gestión de información médica a través del portal protegido para pacientes o acompañamiento integral de Concierge (GMED Reserve).",
+    "decision": {
+      "title": "Comparación de formatos",
+      "portal": "Elija Portal si requiere un entorno seguro para la gestión centralizada de documentos y solicitudes médicas.",
+      "reserve": "Elija Reserve si la situación clínica requiere una coordinación interdisciplinaria operativa y un acompañamiento integral de Concierge."
+    },
+    "signals": {
+      "documents": {
+        "label": "Un espacio protegido",
+        "value": "Documentos, solicitudes y respuestas permanecen en un solo proceso protegido."
+      },
+      "response": {
+        "label": "Opción prioritaria",
+        "value": "Reserve añade el procesamiento de solicitudes en 24 horas y un gestor personal."
+      },
+      "flexibility": {
+        "label": "Elección flexible",
+        "value": "El programa se puede cambiar también más tarde, mientras completa la solicitud."
+      }
+    },
+    "comparison": {
+      "title": "Compare los dos formatos de trabajo con nosotros",
+      "subtitle": "Portal es un formato digital más ligero. Reserve añade personas, rapidez y coordinación en torno al caso.",
+      "columnFeature": "Qué cambia",
+      "columnPortal": "Portal",
+      "columnReserve": "Reserve",
+      "rows": {
+        "fit": {
+          "label": "Para quién es adecuado",
+          "portal": "Para quienes necesitan acceso independiente seguro y un canal claro para solicitudes.",
+          "reserve": "Casos que requieren gestión interdisciplinaria y acompañamiento presencial."
+        },
+        "supportModel": {
+          "label": "Modelo de apoyo",
+          "portal": "Portal digital y acompañamiento estándar del equipo.",
+          "reserve": "Coordinador personal 1:1 y equipo de conserjes médicos."
+        },
+        "requestHandling": {
+          "label": "Procesamiento de solicitudes",
+          "portal": "Plazos estándar de procesamiento de solicitudes y respuestas.",
+          "reserve": "Procesamiento prioritario en 24 horas."
+        },
+        "documents": {
+          "label": "Documentos e historial",
+          "portal": "Registros centralizados, solicitudes e historial de comunicación.",
+          "reserve": "Todo lo de Portal, más el acompañamiento de un gestor en cada etapa."
+        },
+        "appointments": {
+          "label": "Planificación y horario",
+          "portal": "Apoyo administrativo en la planificación de citas.",
+          "reserve": "Coordinación integral del horario y acompañamiento."
+        },
+        "annualReview": {
+          "label": "Revisión estratégica",
+          "portal": "Análisis estratégico anual de su caso.",
+          "reserve": "Coordinación constante más análisis estratégico anual."
+        },
+        "travel": {
+          "label": "Viajes entre clínicas",
+          "portal": "No incluido como servicio gestionado.",
+          "reserve": "Coordinación de vuelos y viajes entre clínicas."
+        },
+        "crossBorder": {
+          "label": "Caso transfronterizo",
+          "portal": "Se organiza de forma independiente por su parte.",
+          "reserve": "Coordinación entre países y transfronteriza."
+        }
+      }
+    },
+    "selection": {
+      "summaryLabel": "Programa seleccionado",
+      "bannerEyebrow": "Programa en la solicitud",
+      "bannerBody": "El programa se puede cambiar más tarde.",
+      "change": "Saber más"
+    },
+    "standard": {
+      "badge": "Estándar",
+      "title": "GMED Standard",
+      "description": "Portal, documentos, comunicación y acompañamiento bajo demanda.",
+      "features": {
+        "consultations": "Consultas individuales",
+        "coordination": "Coordinación de procesos médicos",
+        "documents": "Gestión documental y comunicación",
+        "languageSupport": "Apoyo lingüístico y remoto",
+        "logistics": "Logística de transporte y traslados",
+        "onDemandSupport": "Acompañamiento bajo demanda",
+        "scheduling": "Acompañamiento administrativo y reserva de citas"
+      },
+      "cta": "Continuar con GMED Standard"
+    },
+    "care": {
+      "badge": "Recomendado",
+      "title": "GMED Care",
+      "description": "Portal, coordinación y control proactivo de las etapas del tratamiento.",
+      "includesStandard": "Incluye todo lo de GMED Standard, además de:",
+      "features": {
+        "onlinePortal": "GMED Online Portal",
+        "portalAccess": "Acceso 24/7 a su información médica",
+        "proactiveMonitoring": "Monitoreo proactivo de citas, resultados de pruebas y siguientes pasos",
+        "progressDashboard": "Panel online personal con indicadores del progreso del paciente"
+      },
+      "cta": "Continuar con GMED Care"
+    },
+    "reserve": {
+      "badge": "Premium",
+      "title": "GMED Reserve",
+      "description": "Acompañamiento personal de concierge, prioridad y coordinación ampliada.",
+      "includesCare": "Incluye todo lo de GMED Care, además de:",
+      "features": {
+        "dedicatedManager": "Soporte personal 24/7",
+        "priorityHandling": "Procesamiento prioritario de solicitudes en 24 horas",
+        "conciergeSupport": "Coordinador personal 1:1 y equipo de conserjería médica",
+        "advancedLogistics": "Monitoreo proactivo de citas, resultados de pruebas y siguientes pasos",
+        "crossBorder": "Apoyo logístico y coordinación de viajes",
+        "complexCases": "Coordinación transfronteriza e interacción interdisciplinaria",
+        "annualReview": "Auditoría estratégica anual del caso clínico"
+      },
+      "cta": "Continuar con GMED Reserve"
+    }
+  }
+}

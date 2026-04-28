@@ -1,0 +1,717 @@
+@use "../../../../styles/variables" as *;
+
+.officeWrap {
+  position: relative;
+  z-index: 1;
+  background: #1f4b5c;
+}
+
+.office.office {
+  --office-bg: #ffffff;
+  --office-bg-end: #fbfcfe;
+  --office-surface: rgba(255, 255, 255, 0.4);
+  --office-border: rgba(18, 22, 29, 0.12);
+  --office-border-soft: rgba(18, 22, 29, 0.08);
+  --office-text: #141923;
+  --office-muted: rgba(20, 25, 35, 0.64);
+  padding: clamp(5rem, 8vw, 8.5rem) 0;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #e6e6e3;
+  border-top: none;
+  border-radius: 0 0 84px 84px;
+  box-shadow: none;
+
+  @media (max-width: 767px) {
+    padding: 4.5rem 0;
+    border-radius: 0;
+  }
+
+}
+
+.container {
+  width: min(100%, 1400px) !important;
+  max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 clamp(1.2rem, 3vw, 2.6rem) !important;
+}
+
+.shell {
+  width: 100%;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 2.4vw, 2.4rem) 0 clamp(2.2rem, 4vw, 3.6rem);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.8rem, 3vw, 2.8rem);
+  align-items: stretch;
+
+  @media (max-width: 1023px) {
+    gap: 1.9rem;
+    padding: 1.4rem 0 2.4rem;
+  }
+
+  @media (max-width: 767px) {
+    padding: 0.8rem 0 1.2rem;
+  }
+}
+
+.introPanel {
+  width: min(100%, 64rem);
+  display: grid;
+  align-content: start;
+  gap: clamp(0.7rem, 1.4vh, 1.2rem);
+  padding: 0;
+}
+
+.introMark {
+  display: block;
+  width: clamp(3.4rem, 5vw, 4.8rem);
+  height: 1px;
+  background: linear-gradient(90deg, #c8a193 0%, #a77c8e 52%, rgba(167, 124, 142, 0) 100%);
+}
+
+.overline {
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  width: fit-content;
+  margin: 0;
+  padding: 0.48rem 0.98rem;
+  border: none;
+  border-radius: 999px;
+  background: rgba(19, 23, 33, 0.08);
+  box-shadow: none;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0b0e14;
+  white-space: normal;
+  max-width: min(100%, 34rem);
+}
+
+.title {
+  margin: 0;
+  max-width: 100%;
+  @include home-section-title;
+  font-size: clamp(1.75rem, 3.2vw, 3rem);
+  line-height: 1.08;
+  color: #000000;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: #ff5a14;
+}
+
+.cityStrip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
+  max-width: 24rem;
+}
+
+.cityChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(0.98rem, 1.08vw, 1.08rem);
+  font-weight: 460;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: rgba(20, 25, 35, 0.82);
+  white-space: nowrap;
+
+  &:not(:last-child)::after {
+    content: "";
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 999px;
+    background: rgba(20, 25, 35, 0.24);
+  }
+}
+
+.subtitle {
+  margin: 0;
+  max-width: 25rem;
+  @include home-supporting-copy;
+  color: var(--office-muted);
+}
+
+.stage {
+  min-width: 0;
+  width: 100%;
+}
+
+// New pattern: 1 hero card on top + row of smaller tiles below
+.collage {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.7rem, 1.4vh, 1.1rem);
+}
+
+.heroCard {
+  --hero-image-scale: 1;
+  --hero-image-hover-scale: 1.02;
+  --hero-image-shift-x: 0rem;
+  --hero-image-shift-y: 0rem;
+  position: relative;
+  display: block;
+  height: clamp(22rem, 52vh, 38rem);
+  padding: 0;
+  border-radius: clamp(1rem, 1.6vw, 1.4rem);
+  background: #f2f3f2;
+  border: none;
+  overflow: hidden;
+
+  @media (max-width: 767px) {
+    height: auto;
+    aspect-ratio: 7 / 4;
+  }
+}
+
+.heroCardName {
+  position: absolute;
+  top: clamp(1.4rem, 2.4vw, 2.2rem);
+  left: clamp(1.6rem, 2.8vw, 2.6rem);
+  z-index: 2;
+  margin: 0;
+  max-width: 8ch;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(1.5rem, 2.6vw, 2.4rem);
+  font-weight: 320;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #0b0e14;
+
+  @media (max-width: 767px) {
+    top: 1.1rem;
+    left: 1.2rem;
+    font-size: clamp(1.35rem, 6vw, 1.8rem);
+  }
+}
+
+.heroCardMedia {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.heroCardMediaInner {
+  position: absolute;
+  inset: 0;
+}
+
+.gridRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(0.8rem, 1.4vw, 1.2rem);
+  align-items: stretch;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.tile {
+  --tile-image-scale: 1;
+  --tile-image-hover-scale: 1.03;
+  --tile-image-shift-y: 0rem;
+  --tile-image-padding-inline: clamp(1rem, 1.8vw, 1.8rem);
+  --tile-image-padding-top: 0.8rem;
+  --tile-image-padding-bottom: clamp(1.4rem, 2.2vw, 2rem);
+  position: relative;
+  display: block;
+}
+
+.tileMedia {
+  position: relative;
+  width: 100%;
+  height: clamp(12rem, 28vh, 20rem);
+  border-radius: clamp(0.8rem, 1.3vw, 1.1rem);
+  background: #f2f3f2;
+  border: none;
+  overflow: hidden;
+
+  @media (max-width: 767px) {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+}
+
+.tileName {
+  position: absolute;
+  top: clamp(1rem, 1.8vw, 1.4rem);
+  left: clamp(1.1rem, 2vw, 1.6rem);
+  z-index: 2;
+  margin: 0;
+  max-width: 7ch;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(1.05rem, 1.4vw, 1.35rem);
+  font-weight: 360;
+  line-height: 1.1;
+  letter-spacing: -0.008em;
+  color: #0b0e14;
+  text-align: left;
+}
+
+.cityImage {
+  object-fit: contain;
+  object-position: center bottom;
+  padding: var(--tile-image-padding-top, 0.8rem)
+    var(--tile-image-padding-inline, clamp(1rem, 1.8vw, 1.8rem))
+    var(--tile-image-padding-bottom, clamp(1.4rem, 2.2vw, 2rem));
+  transform: translateY(var(--tile-image-shift-y, 0rem)) scale(var(--tile-image-scale, 1));
+  transform-origin: center bottom;
+  transition: transform 0.4s ease;
+}
+
+.heroCard .heroImageMunich {
+  object-fit: contain;
+  object-position: center center;
+  padding: 0;
+  transform: translate(
+      var(--hero-image-shift-x, 0rem),
+      var(--hero-image-shift-y, 0rem)
+    )
+    scale(var(--hero-image-scale, 1));
+  transform-origin: center center;
+}
+
+.tileCologne {
+  --tile-image-scale: 1;
+  --tile-image-hover-scale: 1.03;
+  --tile-image-shift-y: 0rem;
+  --tile-image-padding-top: 0.8rem;
+  --tile-image-padding-inline: clamp(1rem, 1.8vw, 1.8rem);
+  --tile-image-padding-bottom: clamp(1.4rem, 2.2vw, 2rem);
+}
+
+.tileMediaCologne {
+  background: #f2f3f2;
+}
+
+.cityImageCologne {
+  object-position: center bottom;
+}
+
+.tileNameCologne {
+  max-width: 5ch;
+}
+
+@media (hover: hover) {
+  .heroCard:hover .cityImage:not(.heroImageMunich) {
+    transform: scale(1.03);
+  }
+
+  .heroCard:hover .heroImageMunich {
+    transform: translate(
+        var(--hero-image-shift-x, 0rem),
+        var(--hero-image-shift-y, 0rem)
+      )
+      scale(var(--hero-image-hover-scale, 0.75));
+  }
+
+  .tile:hover .cityImage {
+    transform: translateY(var(--tile-image-shift-y, 0rem))
+      scale(var(--tile-image-hover-scale, 1.03));
+  }
+}
+
+// New full-width grid layout
+.gridAtlas {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  grid-template-rows: auto auto;
+  gap: clamp(0.75rem, 1.4vw, 1.1rem);
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gridCity {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 1px solid var(--office-border);
+  min-height: clamp(16rem, 32vw, 24rem);
+  box-shadow: 0 20px 40px -28px rgba(18, 22, 29, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  @media (max-width: 767px) {
+    min-height: 14rem;
+    border-radius: 1.25rem;
+  }
+}
+
+.gridCityMain {
+  grid-row: 1;
+  grid-column: 1;
+  min-height: clamp(22rem, 42vw, 34rem);
+
+  @media (max-width: 767px) {
+    min-height: 18rem;
+  }
+}
+
+.gridCityImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gridCityLabel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: clamp(1.2rem, 2vw, 1.8rem);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.gridCityName {
+  margin: 0;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(1.4rem, 2.5vw, 2.2rem);
+  font-weight: 440;
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+@media (hover: hover) {
+  .gridCity:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 24px 48px rgba(18, 22, 29, 0.12);
+  }
+}
+
+.atlas {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(18rem, 0.88fr);
+  gap: clamp(0.95rem, 1.8vw, 1.35rem);
+  min-height: clamp(25rem, 56vh, 35rem);
+
+  @media (max-width: 1180px) {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+}
+
+.featuredCity {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: clamp(1rem, 1.8vw, 1.45rem);
+  align-items: stretch;
+  min-height: 0;
+  padding: clamp(1.25rem, 2vw, 1.65rem);
+  border-radius: 1.75rem;
+  border: 1px solid var(--office-border);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 26px 46px -34px rgba(18, 22, 29, 0.24);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.12) 32%, rgba(255, 255, 255, 0) 64%);
+    pointer-events: none;
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    border-radius: 1.4rem;
+    padding: 1rem;
+  }
+}
+
+.featuredMeta {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1.2rem;
+  min-width: 0;
+}
+
+.featuredIndex {
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(0.92rem, 0.95vw, 0.98rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(20, 25, 35, 0.52);
+}
+
+.featuredName {
+  margin: 0;
+  max-width: 6.2ch;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(1.92rem, 3.55vw, 3.65rem);
+  font-weight: 440;
+  line-height: 0.94;
+  letter-spacing: -0.074em;
+  color: var(--office-text);
+  text-wrap: balance;
+}
+
+.featuredVisual {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: min(100%, clamp(16.5rem, 25vw, 21rem));
+  aspect-ratio: 1 / 1.95;
+  min-width: 0;
+  justify-self: end;
+  overflow: hidden;
+  border-radius: 16px;
+
+  @media (max-width: 767px) {
+    width: min(100%, 17rem);
+    aspect-ratio: 1 / 1.78;
+    justify-content: center;
+  }
+}
+
+.cityImageMunich {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+  transition: transform 0.38s ease;
+}
+
+.sideCities {
+  display: grid;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  gap: clamp(0.95rem, 1.8vw, 1.2rem);
+
+  @media (max-width: 1180px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: none;
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cityCard {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(9.8rem, 15vw, 12.2rem);
+  gap: clamp(0.72rem, 1.2vw, 0.96rem);
+  align-items: end;
+  min-height: 0;
+  padding: clamp(0.95rem, 1.4vw, 1.2rem);
+  border-radius: 1.75rem;
+  border: 1px solid var(--office-border);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 36px -30px rgba(18, 22, 29, 0.24);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.08) 36%, rgba(255, 255, 255, 0) 72%);
+    pointer-events: none;
+  }
+
+  @media (max-width: 1180px) {
+    min-height: clamp(12rem, 24vw, 14rem);
+  }
+
+  @media (max-width: 767px) {
+    border-radius: 1.4rem;
+  }
+}
+
+.cityCardMeta {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  gap: 1rem;
+}
+
+.cityCardIndex {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(20, 25, 35, 0.48);
+}
+
+.cityName {
+  margin: 0;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(1.35rem, 1.9vw, 1.85rem);
+  font-weight: 440;
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+  color: var(--office-text);
+  text-wrap: balance;
+}
+
+.cityCardVisual {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: min(100%, clamp(9rem, 13.5vw, 11rem));
+  aspect-ratio: 4 / 5;
+  min-width: 0;
+  min-height: 0;
+  justify-self: end;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.cityImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+  transition: transform 0.38s ease;
+}
+
+.cityImageOverlay {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes brushReveal {
+  0% {
+    clip-path: inset(0 100% 100% 0);
+    opacity: 0;
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+.brushPaint {
+  clip-path: inset(0 100% 100% 0);
+  opacity: 0;
+  will-change: clip-path, opacity;
+}
+
+.brushPaintActive {
+  animation: brushReveal 0.95s ease-out forwards;
+}
+
+.brushPaintStatic {
+  clip-path: inset(0);
+  opacity: 1;
+}
+
+@media (hover: hover) {
+  .featuredCity:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 26px 56px rgba(18, 22, 29, 0.11);
+
+    .cityImageMunich {
+      transform: translateY(-0.15rem) scale(1.018);
+    }
+  }
+
+  .cityCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 40px rgba(18, 22, 29, 0.08);
+
+    .cityImage {
+      transform: translateY(-0.12rem) scale(1.025);
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .title {
+    max-width: 100%;
+  }
+
+  .introPanel {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .office.office {
+    border-radius: 0 0 32px 32px;
+    box-shadow: 0 16px 32px -10px rgba(0, 0, 0, 0.12);
+  }
+
+  .introMark {
+    display: none;
+  }
+
+  .cityStrip {
+    gap: 0.4rem 0.6rem;
+  }
+
+  .cityChip {
+    gap: 0.6rem;
+    font-size: 0.94rem;
+  }
+
+  .title {
+    max-width: 100%;
+    @include home-section-title-mobile;
+  }
+
+  .featuredName {
+    max-width: 100%;
+    font-size: clamp(2.2rem, 9vw, 3.2rem);
+    line-height: 0.98;
+  }
+
+  .cityName {
+    font-size: clamp(1.18rem, 6.2vw, 1.55rem);
+    line-height: 1.06;
+  }
+
+  .cityImage {
+    width: 100%;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .title {
+    animation: none;
+    background-position: 0 50%;
+  }
+}

@@ -1,0 +1,336 @@
+@use "@/styles/variables" as *;
+
+.page {
+  min-height: 100vh;
+  background: #eceef5 !important;
+}
+
+.contentSection {
+  padding-top: clamp(8.2rem, 12vw, 11.5rem) !important;
+  padding-bottom: clamp(5.5rem, 9vw, 8.5rem) !important;
+  background: transparent !important;
+}
+
+.container {
+  width: min(100%, 1400px);
+  margin: 0 auto;
+  padding: 0 clamp(1.2rem, 3vw, 2.6rem);
+}
+
+.editorialLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(1rem, 1.8vw, 1.6rem);
+  padding-bottom: clamp(3rem, 5vw, 4.6rem);
+  border-bottom: 1px solid rgba(19, 23, 33, 0.12);
+}
+
+.eyebrow {
+  display: inline-block;
+  padding: 0.48rem 0.98rem;
+  margin: 0;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0b0e14;
+  background: rgba(19, 23, 33, 0.08);
+  border: none;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.2rem, 2vw, 1.8rem);
+  width: 100%;
+}
+
+.pageTitle {
+  margin: 0;
+  max-width: 20ch;
+  @include home-section-title;
+  color: #131721;
+  text-wrap: balance;
+  text-align: left;
+}
+
+.pageLead {
+  margin: 0;
+  max-width: 54ch;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(1.08rem, 1.35vw, 1.32rem);
+  font-weight: 450;
+  line-height: 1.44;
+  letter-spacing: -0.02em;
+  color: #1a1a22;
+  text-wrap: balance;
+}
+
+.metaLabel {
+  margin: 0;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ff5a14;
+}
+
+.introRow,
+.policyRow {
+  display: grid;
+  grid-template-columns: minmax(3rem, 0.12fr) minmax(12rem, 0.55fr) minmax(0, 1.1fr);
+  gap: clamp(1.5rem, 4vw, 4.4rem);
+  align-items: start;
+  padding: clamp(2.5rem, 4vw, 4rem) 0;
+  border-bottom: 1px solid rgba(19, 23, 33, 0.1);
+}
+
+.policyRow:last-child {
+  border-bottom: none;
+}
+
+.rowIndex {
+  margin: 0;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(19, 23, 33, 0.42);
+  white-space: nowrap;
+  padding-top: 0.4rem;
+}
+
+.rowHeading {
+  max-width: min(100%, 24rem);
+}
+
+.rowTitle {
+  margin: 0;
+  @include home-section-title;
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+  line-height: 1.02;
+  color: #131721;
+  text-wrap: balance;
+}
+
+.rowBody {
+  max-width: min(100%, 46rem);
+}
+
+.introStack,
+.bodyStack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.95rem, 1.55vw, 1.3rem);
+}
+
+.introText {
+  margin: 0;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0b0e14;
+  text-wrap: balance;
+}
+
+.bodyText {
+  margin: 0;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0b0e14;
+  text-wrap: balance;
+}
+
+.detailList {
+  display: grid;
+  gap: clamp(0.7rem, 1.2vw, 0.95rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    position: relative;
+    margin: 0;
+    padding-left: 1.35rem;
+    font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #0b0e14;
+    text-wrap: balance;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.6rem;
+      width: 0.42rem;
+      height: 0.42rem;
+      border-radius: 999px;
+      background: #ff5a14;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .contentSection {
+    padding-top: 7rem !important;
+  }
+
+  .heroRow {
+    gap: 1.2rem;
+  }
+
+  .heroContent {
+    gap: 1.2rem;
+  }
+
+  .pageTitle {
+    max-width: 100%;
+  }
+
+  .introRow,
+  .policyRow {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    grid-template-areas:
+      "index heading"
+      "index body";
+    gap: 1rem 1.5rem;
+    padding: 2.2rem 0;
+  }
+
+  .rowIndex {
+    grid-area: index;
+    padding-top: 0.5rem;
+  }
+
+  .rowHeading {
+    grid-area: heading;
+    max-width: 100%;
+  }
+
+  .rowBody {
+    grid-area: body;
+    max-width: 100%;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .contentSection {
+    padding-top: 5.75rem !important;
+    padding-bottom: 3.8rem !important;
+  }
+
+  .heroRow {
+    padding-bottom: 2.2rem;
+    gap: 1rem;
+  }
+
+  .eyebrow {
+    font-size: 0.72rem;
+    padding: 0.4rem 0.85rem;
+  }
+
+  .pageTitle {
+    @include home-section-title-mobile;
+  }
+
+  .pageLead {
+    font-size: 1rem;
+    line-height: 1.44;
+  }
+
+  .metaLabel {
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+  }
+
+  .introRow,
+  .policyRow {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "index"
+      "heading"
+      "body";
+    gap: 0.75rem;
+    padding: 1.6rem 0;
+  }
+
+  .rowIndex {
+    padding-top: 0;
+    font-size: 0.74rem;
+    letter-spacing: 0.12em;
+  }
+
+  .rowTitle {
+    font-size: clamp(1.2rem, 5.8vw, 1.55rem);
+    line-height: 1.08;
+  }
+
+  .introText,
+  .bodyText,
+  .detailList li {
+    font-size: 0.76rem;
+    line-height: 1.45;
+    letter-spacing: 0.05em;
+  }
+
+  .detailList li {
+    padding-left: 1.1rem;
+
+    &::before {
+      top: 0.6rem;
+      width: 0.36rem;
+      height: 0.36rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contentSection {
+    padding-top: 5rem !important;
+  }
+
+  .pageTitle {
+    font-size: clamp(1.85rem, 9vw, 2.4rem);
+  }
+
+  .pageLead {
+    font-size: 0.94rem;
+  }
+
+  .rowTitle {
+    font-size: clamp(1.1rem, 6vw, 1.35rem);
+  }
+
+  .introText,
+  .bodyText,
+  .detailList li {
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+  }
+}

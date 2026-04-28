@@ -1,0 +1,511 @@
+@use "../../styles/variables" as *;
+
+.page {
+  background: #eceef5 !important;
+  min-height: 100svh;
+  display: flex;
+}
+
+.shellSection {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-top: clamp(2.5rem, 6vw, 4rem) !important;
+  padding-bottom: clamp(2.25rem, 5vw, 3.5rem) !important;
+  background: #eceef5 !important;
+}
+
+.shell {
+  width: min(100%, 34rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.brandLink {
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: auto;
+  height: clamp(3.2rem, 6vw, 4rem);
+}
+
+.brandTagline {
+  display: inline-block;
+  margin: 0.9rem 0 0;
+  padding: 0.48rem 0.98rem;
+  border-radius: 999px;
+  background: rgba(19, 23, 33, 0.08);
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0b0e14;
+}
+
+.brandAccent {
+  color: inherit;
+}
+
+.formIsland {
+  width: 100%;
+  margin-top: clamp(1.7rem, 4vw, 2.35rem);
+  padding: clamp(1.45rem, 3vw, 2.1rem);
+  border-radius: 1.2rem;
+  border: 1px solid rgba(19, 23, 33, 0.08);
+  background: #ffffff;
+  box-shadow: 0 20px 60px -48px rgba(19, 23, 33, 0.28);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.formHeading {
+  margin-bottom: 1.2rem;
+}
+
+.formTitle {
+  margin: 0;
+  font-size: clamp(1.85rem, 4vw, 2.65rem);
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+  color: #1a1a22;
+}
+
+.formSubtitle {
+  max-width: 28rem;
+  margin: 0.8rem auto 0;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: rgba(19, 23, 33, 0.68);
+  text-wrap: pretty;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.input {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.95rem 1rem;
+  font-size: 0.975rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  font-family: var(--font-sans), sans-serif;
+  border: 1px solid var(--border-card, rgba(19, 23, 33, 0.12));
+  border-radius: 16px;
+  background: #fff;
+  color: #14161b;
+  caret-color: #14161b;
+  outline: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+    border-color: #ff5a14;
+    background: #fff;
+    box-shadow:
+      inset 0 0 0 1px rgba(255, 90, 20, 0.28),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+
+  &::placeholder {
+    color: rgba(109, 116, 129, 0.5);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+}
+
+.inputError {
+  border-color: #dc2626;
+  box-shadow:
+    inset 0 0 0 1px rgba(220, 38, 38, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+
+  &:focus,
+  &:focus-visible {
+    border-color: #dc2626;
+    box-shadow:
+      inset 0 0 0 1px rgba(220, 38, 38, 0.42),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+}
+
+.fieldError {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.38rem;
+  padding: 0.3rem 0.68rem;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #dc2626;
+  border-radius: 999px;
+  line-height: 1;
+  width: fit-content;
+  box-shadow: 0 8px 18px -14px rgba(220, 38, 38, 0.55);
+}
+
+.passwordWrapper {
+  position: relative;
+}
+
+.passwordWrapper .input {
+  padding-right: 3rem;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0.45rem;
+  color: rgba(19, 23, 33, 0.42);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.18s ease;
+
+  &:hover {
+    color: #131721;
+  }
+}
+
+.feedback {
+  padding: 0.82rem 1rem;
+  margin: 0.35rem 0 0.5rem;
+  border-radius: 0.85rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: var(--font-sans), sans-serif;
+}
+
+.feedbackError {
+  color: #b3261e;
+  background: rgba(179, 38, 30, 0.08);
+  border: 1px solid rgba(179, 38, 30, 0.16);
+}
+
+.feedbackSuccess {
+  color: #1f6e3a;
+  background: rgba(31, 110, 58, 0.08);
+  border: 1px solid rgba(31, 110, 58, 0.16);
+}
+
+.submitButtonFrame {
+  width: 100%;
+  margin-top: 1.1rem;
+  padding: 0;
+  background: transparent;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.submitButton {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  width: 100%;
+  min-height: 3.1rem;
+  padding: 0.92rem 1.7rem;
+  font-family: var(--font-sans), sans-serif;
+  font-size: clamp(0.78rem, 0.66rem + 0.38vw, 0.98rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  color: #f4f3f1;
+  background: #252734;
+  border: none;
+  border-radius: 999px;
+  white-space: nowrap;
+  text-decoration: none;
+  text-shadow: none;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow:
+    0 12px 28px -18px rgba(16, 18, 28, 0.55),
+    0 4px 10px -4px rgba(16, 18, 28, 0.18);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    opacity 0.18s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    border-radius: inherit;
+    background: #ff5a14;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  svg {
+    width: 1.1rem;
+    height: 1.1rem;
+    stroke-width: 2.2;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover:not(:disabled)::before {
+      transform: scaleX(1);
+    }
+
+    &:hover:not(:disabled) {
+      box-shadow:
+        0 14px 30px -18px rgba(16, 18, 28, 0.6),
+        0 6px 12px -6px rgba(16, 18, 28, 0.22);
+    }
+  }
+
+  &:focus-visible:not(:disabled) {
+    outline: none;
+    box-shadow:
+      0 0 0 3px rgba(255, 90, 20, 0.22),
+      0 14px 30px -18px rgba(16, 18, 28, 0.6);
+  }
+}
+
+.submitButtonLabel {
+  font-weight: 600;
+}
+
+.desktopHomeLabel {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 2.08rem;
+  padding: 0.6rem 1.15rem;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #0b0e14;
+  background: rgba(19, 23, 33, 0.08);
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease;
+
+  svg {
+    width: 0.95rem;
+    height: 0.95rem;
+    stroke-width: 2.4;
+  }
+
+  &:hover {
+    background: rgba(19, 23, 33, 0.12);
+    color: #0b0e14;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #ff5a14;
+    outline-offset: 2px;
+  }
+}
+
+.confidentialityNotice {
+  margin: 1.4rem 0 0.54rem;
+  text-align: center;
+  font-family: var(--font-mono), "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  color: rgba(19, 23, 33, 0.68);
+}
+
+.linkRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem 1.15rem;
+}
+
+.secondaryLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+  font-family: var(--font-sans), sans-serif;
+  font-size: 0.92rem;
+  font-weight: 560;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: #131721;
+  text-decoration: none;
+  transition: opacity 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+  svg {
+    width: 1.25em;
+    height: 1.25em;
+    stroke-width: 2.4;
+    flex-shrink: 0;
+  }
+
+  &:hover {
+    color: #ff5a14;
+    transform: translateX(0.08rem);
+  }
+}
+
+.mollieBadge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 1.4rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgba(26, 31, 39, 0.06);
+}
+
+.mollieButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  width: 100%;
+  padding: 0.88rem 1.4rem;
+  font-size: 0.93rem;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  color: #fff;
+  background: linear-gradient(135deg, #ff8c00 0%, #e67700 100%);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.16);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+
+  &:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(230, 119, 0, 0.3);
+  }
+}
+
+.mollieIcon {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex-shrink: 0;
+}
+
+.mollieTrust {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #8a909b;
+  letter-spacing: -0.01em;
+}
+
+.mollieLink {
+  color: #8a909b;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(138, 144, 155, 0.35);
+  text-underline-offset: 0.14em;
+  transition: color 0.18s ease;
+
+  &:hover {
+    color: #e67700;
+  }
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 640px) {
+  .shellSection {
+    align-items: flex-start;
+    padding-top: 1.8rem !important;
+    padding-bottom: 1.6rem !important;
+  }
+
+  .shell {
+    width: min(100%, 29rem);
+  }
+
+  .brandTagline {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+  }
+
+  .formIsland {
+    margin-top: 1.35rem;
+    padding: 1.2rem 1rem;
+    border-radius: 1.35rem;
+  }
+
+  .submitButtonFrame {
+    padding: 0;
+  }
+
+  .desktopHomeLabel {
+    display: none;
+  }
+
+  .formTitle {
+    font-size: clamp(1.55rem, 8vw, 2rem);
+  }
+
+  .formSubtitle,
+  .confidentialityNotice,
+  .secondaryLink {
+    font-size: 0.92rem;
+  }
+}
