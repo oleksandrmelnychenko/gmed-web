@@ -59,22 +59,22 @@
           "point1": "zu Behandlungsoptionen",
           "point2": "zu spezialisierten Kliniken und Fachärzten",
           "point3": "auf Grundlage persönlicher Bedürfnisse",
-          "item1Title": "Behandlungsoptionen",
-          "item1Text": "mit Bewertung verfügbarer Szenarien und möglicher Richtungen",
-          "item2Title": "Kliniken und Fachärzte",
-          "item2Text": "mit Auswahl spezialisierter Einrichtungen und relevanter Spezialisten",
-          "item3Title": "Persönliche Bedürfnisse und Wünsche",
-          "item3Text": "unter Berücksichtigung individueller Anfragen, Erwartungen und Präferenzen"
+          "item1Title": "Behandlungsstrategie",
+          "item1Text": "Expertenanalyse und Auswahl der Behandlungsstrategie",
+          "item2Title": "Fachspezialisten",
+          "item2Text": "Auswahl spezialisierter medizinischer Zentren und hochqualifizierter Fachärzte",
+          "item3Title": "Individueller Ansatz",
+          "item3Text": "unter Berücksichtigung klinischer Prioritäten, Ihrer Erwartungen und Präferenzen"
         },
         "coordination": {
           "title": "Koordination medizinischer Abläufe",
           "point1": "von der Terminplanung bis zur Abstimmung aller Schritte",
           "point2": "unter Gewährleistung interdisziplinärer Zusammenarbeit",
           "point3": "mit Fokus auf Effizienz und Klarheit",
-          "item1Title": "Etappen des Behandlungswegs",
-          "item1Text": "von der Terminplanung bis zur Abstimmung der wichtigsten Behandlungsschritte",
+          "item1Title": "Koordination. Organisation und Abstimmung aller Etappen des medizinischen Aufenthalts.",
+          "item1Text": "",
           "item2Title": "Interdisziplinäre Zusammenarbeit",
-          "item2Text": "mit koordinierter Kommunikation zwischen Kliniken, Ärzten und allen Beteiligten",
+          "item2Text": "Koordination der Kommunikation zwischen Kliniken, Ärzten und allen Beteiligten",
           "item3Title": "Effizienz und Klarheit",
           "item3Text": "mit transparenter Prozessgestaltung ohne unnötige Belastung für den Patienten"
         },
@@ -83,20 +83,20 @@
           "point1": "bei Befunden, Arztbriefen und Dokumenten",
           "point2": "bei der strukturierten Übermittlung medizinischer Informationen",
           "point3": "für einen reibungslosen Austausch aller Beteiligten",
-          "item1Title": "Befunde und Arztbriefe",
-          "item1Text": "mit systematischer Bearbeitung medizinischer Dokumente und Fachmaterialien",
-          "item2Title": "Informationsübermittlung",
-          "item2Text": "mit strukturierter Datenaufbereitung für Kliniken und Spezialisten",
+          "item1Title": "Medizinische Berichterstattung",
+          "item1Text": "systematische Arbeit mit medizinischen Befunden und Fachmaterialien",
+          "item2Title": "Strukturierung der Daten",
+          "item2Text": "professionelle Aufbereitung und Übersetzung medizinischer Informationen für Spezialisten",
           "item3Title": "Kommunikation der Beteiligten",
-          "item3Text": "für einen präzisen und abgestimmten Informationsaustausch in jeder Phase"
+          "item3Text": "Sicherstellung eines präzisen und abgestimmten Informationsaustauschs in jeder Phase"
         },
         "languageDigital": {
           "title": "Sprachliche und digitale Unterstützung",
           "point1": "durch Übersetzungs- und Dolmetscherdienste",
           "point2": "bei der Übersetzung medizinischer Unterlagen",
           "point3": "bei digitalen Sprechstunden und Plattformzugängen",
-          "item1Title": "Übersetzung und Begleitung",
-          "item1Text": "mit schriftlicher und mündlicher Übersetzung im medizinischen Kontext",
+          "item1Title": "Medizinische Übersetzung",
+          "item1Text": "schriftliche und mündliche Übersetzung mit fundiertem Verständnis der medizinischen Terminologie",
           "item2Title": "Medizinische Dokumentation",
           "item2Text": "mit Übersetzung von Entlassungsbriefen, Befunden und begleitenden Unterlagen",
           "item3Title": "Online-Plattformen",
@@ -110,21 +110,21 @@
           "item1Title": "Transfer und Fahrer",
           "item1Text": "mit persönlichem Service für Fahrten zwischen allen Stationen",
           "item2Title": "Fluglösungen",
-          "item2Text": "mit Organisation von Charter- und Medizinflügen bei Bedarf",
+          "item2Text": "Organisation von Charter- und Sanitätsflügen jeder Komplexität",
           "item3Title": "Krankentransport",
-          "item3Text": "mit Koordination eines sicheren Transports im passenden Format"
+          "item3Text": "Koordination eines sicheren Krankentransports im erforderlichen Format"
         },
         "personalSupport": {
-          "title": "Persönliche Begleitung während des Aufenthalts",
+          "title": "Persönliche Begleitung und Concierge-Service",
           "point1": "mit ausgewählten Concierge- und Lifestyle-Services",
           "point2": "mit individueller Unterstützung vor Ort",
           "point3": "mit diskreter Betreuung nach persönlichen Anforderungen",
           "item1Title": "Concierge-Service",
           "item1Text": "mit sorgfältig ausgewählten Concierge-Leistungen und persönlichem Service",
           "item2Title": "Unterstützung vor Ort",
-          "item2Text": "mit individueller Hilfe während des Aufenthalts und bei Terminen",
-          "item3Title": "Persönliche Wünsche",
-          "item3Text": "mit diskreter Begleitung, angepasst an Ihre Anforderungen"
+          "item2Text": "individuelle Hilfe und Begleitung in allen Phasen des Aufenthalts",
+          "item3Title": "Individueller Service",
+          "item3Text": "diskrete Lösung organisatorischer Aufgaben, angepasst an Ihren Zeitplan"
         },
         "aftercare": {
           "title": "Begleitung nach Abschluss der Behandlung",
@@ -204,12 +204,12 @@
       "delicateLabel": "Sensible Fragen",
       "items": {
         "services": {
-          "question": "Was genau macht die Medical Concierge Agency?",
-          "answer": "Wir bieten einen vollständigen Betreuungszyklus: Expertenanalyse von Dokumenten, Klinikauswahl, Koordination des Behandlungsprozesses, Übersetzung der Dokumentation und vollständige logistische Unterstützung."
+          "question": "Was genau macht Gmed?",
+          "answer": "Wir gewährleisten Transparenz und Kontrolle: Expertenanalyse von Dokumenten, Klinikauswahl, Koordination des Behandlungsprozesses, Übersetzung der Dokumentation und vollständige logistische Unterstützung."
         },
         "clinicSelection": {
           "question": "Helfen Sie bei der Auswahl einer Klinik oder eines Arztes in Deutschland?",
-          "answer": "Ja. Basierend auf medizinischen Berichten und den Besonderheiten der Anfrage wählen wir spezialisierte medizinische Zentren und hochspezialisierte Ärzte aus, die über die erforderliche Expertise verfügen."
+          "answer": "Ja. Basierend auf medizinischen Entlassungsbriefen und der bereitgestellten Dokumentation wählen wir spezialisierte medizinische Zentren und hochspezialisierte Ärzte aus, die über die erforderliche Expertise verfügen."
         },
         "travel": {
           "question": "Muss ich bereits in Deutschland sein, um mich an Sie zu wenden?",
@@ -217,7 +217,7 @@
         },
         "documents": {
           "question": "Unterstützen Sie bei Unterlagen, Übersetzungen und der Kommunikation mit Kliniken?",
-          "answer": "Ja. Wir führen professionelle Übersetzungen von Befunden durch, strukturieren das medizinische Dossier nach den Standards deutscher Kliniken und sorgen für eine lückenlose Kommunikation mit den behandelnden Ärzten."
+          "answer": "Ja. Wir stimmen den erforderlichen Dokumentenumfang ab, übernehmen die Übersetzung, strukturieren die medizinischen Informationen nach den Standards deutscher Kliniken und sorgen für eine lückenlose Kommunikation mit den behandelnden Ärzten."
         },
         "onSite": {
           "question": "Gibt es Unterstützung vor Ort und Hilfe bei der Reise?",
@@ -278,12 +278,12 @@
           "point1": "zu Behandlungsoptionen",
           "point2": "zu spezialisierten Kliniken und Fachärzten",
           "point3": "auf Grundlage persönlicher Bedürfnisse",
-          "item1Title": "Behandlungsoptionen",
-          "item1Text": "mit Bewertung verfügbarer Szenarien und möglicher Richtungen",
-          "item2Title": "Kliniken und Fachärzte",
-          "item2Text": "mit Auswahl spezialisierter Einrichtungen und relevanter Spezialisten",
-          "item3Title": "Persönliche Bedürfnisse und Wünsche",
-          "item3Text": "unter Berücksichtigung individueller Anfragen, Erwartungen und Präferenzen",
+          "item1Title": "Behandlungsstrategie",
+          "item1Text": "Expertenanalyse und Auswahl der Behandlungsstrategie",
+          "item2Title": "Fachspezialisten",
+          "item2Text": "Auswahl spezialisierter medizinischer Zentren und hochqualifizierter Fachärzte",
+          "item3Title": "Individueller Ansatz",
+          "item3Text": "unter Berücksichtigung klinischer Prioritäten, Ihrer Erwartungen und Präferenzen",
           "label": "Individuelle Beratung"
         },
         "coordination": {
@@ -291,10 +291,10 @@
           "point1": "von der Terminplanung bis zur Abstimmung aller Schritte",
           "point2": "unter Gewährleistung interdisziplinärer Zusammenarbeit",
           "point3": "mit Fokus auf Effizienz und Klarheit",
-          "item1Title": "Etappen des Behandlungswegs",
-          "item1Text": "von der Terminplanung bis zur Abstimmung der wichtigsten Behandlungsschritte",
+          "item1Title": "Koordination. Organisation und Abstimmung aller Etappen des medizinischen Aufenthalts.",
+          "item1Text": "",
           "item2Title": "Interdisziplinäre Zusammenarbeit",
-          "item2Text": "mit koordinierter Kommunikation zwischen Kliniken, Ärzten und allen Beteiligten",
+          "item2Text": "Koordination der Kommunikation zwischen Kliniken, Ärzten und allen Beteiligten",
           "item3Title": "Effizienz und Klarheit",
           "item3Text": "mit transparenter Prozessgestaltung ohne unnötige Belastung für den Patienten",
           "label": "Koordination medizinischer Abläufe"
@@ -304,12 +304,12 @@
           "point1": "bei Befunden, Arztbriefen und Dokumenten",
           "point2": "bei der strukturierten Übermittlung medizinischer Informationen",
           "point3": "für einen reibungslosen Austausch aller Beteiligten",
-          "item1Title": "Befunde und Arztbriefe",
-          "item1Text": "mit systematischer Bearbeitung medizinischer Dokumente und Fachmaterialien",
-          "item2Title": "Informationsübermittlung",
-          "item2Text": "mit strukturierter Datenaufbereitung für Kliniken und Spezialisten",
+          "item1Title": "Medizinische Berichterstattung",
+          "item1Text": "systematische Arbeit mit medizinischen Befunden und Fachmaterialien",
+          "item2Title": "Strukturierung der Daten",
+          "item2Text": "professionelle Aufbereitung und Übersetzung medizinischer Informationen für Spezialisten",
           "item3Title": "Kommunikation der Beteiligten",
-          "item3Text": "für einen präzisen und abgestimmten Informationsaustausch in jeder Phase",
+          "item3Text": "Sicherstellung eines präzisen und abgestimmten Informationsaustauschs in jeder Phase",
           "label": "Organisation von Unterlagen und Kommunikation"
         },
         "languageDigital": {
@@ -317,8 +317,8 @@
           "point1": "durch Übersetzungs- und Dolmetscherdienste",
           "point2": "bei der Übersetzung medizinischer Unterlagen",
           "point3": "bei digitalen Sprechstunden und Plattformzugängen",
-          "item1Title": "Übersetzung und Begleitung",
-          "item1Text": "mit schriftlicher und mündlicher Übersetzung im medizinischen Kontext",
+          "item1Title": "Medizinische Übersetzung",
+          "item1Text": "schriftliche und mündliche Übersetzung mit fundiertem Verständnis der medizinischen Terminologie",
           "item2Title": "Medizinische Dokumentation",
           "item2Text": "mit Übersetzung von Entlassungsbriefen, Befunden und begleitenden Unterlagen",
           "item3Title": "Online-Plattformen",
@@ -333,23 +333,23 @@
           "item1Title": "Transfer und Fahrer",
           "item1Text": "mit persönlichem Service für Fahrten zwischen allen Stationen",
           "item2Title": "Fluglösungen",
-          "item2Text": "mit Organisation von Charter- und Medizinflügen bei Bedarf",
+          "item2Text": "Organisation von Charter- und Sanitätsflügen jeder Komplexität",
           "item3Title": "Krankentransport",
-          "item3Text": "mit Koordination eines sicheren Transports im passenden Format",
+          "item3Text": "Koordination eines sicheren Krankentransports im erforderlichen Format",
           "label": "Reise- und Transferleistungen auf höchstem Niveau"
         },
         "personalSupport": {
-          "title": "Persönliche Begleitung während des Aufenthalts",
+          "title": "Persönliche Begleitung und Concierge-Service",
           "point1": "mit ausgewählten Concierge- und Lifestyle-Services",
           "point2": "mit individueller Unterstützung vor Ort",
           "point3": "mit diskreter Betreuung nach persönlichen Anforderungen",
           "item1Title": "Concierge-Service",
           "item1Text": "mit sorgfältig ausgewählten Concierge-Leistungen und persönlichem Service",
           "item2Title": "Unterstützung vor Ort",
-          "item2Text": "mit individueller Hilfe während des Aufenthalts und bei Terminen",
-          "item3Title": "Persönliche Wünsche",
-          "item3Text": "mit diskreter Begleitung, angepasst an Ihre Anforderungen",
-          "label": "Persönliche Begleitung während des Aufenthalts"
+          "item2Text": "individuelle Hilfe und Begleitung in allen Phasen des Aufenthalts",
+          "item3Title": "Individueller Service",
+          "item3Text": "diskrete Lösung organisatorischer Aufgaben, angepasst an Ihren Zeitplan",
+          "label": "Persönliche Begleitung und Concierge-Service"
         },
         "aftercare": {
           "title": "Begleitung nach Abschluss der Behandlung",
@@ -1014,7 +1014,7 @@
     "standard": {
       "badge": "Standard",
       "title": "GMED Standard",
-      "description": "Portalzugang, Dokumente, Kommunikation und Unterstützung auf Anfrage.",
+      "description": "Koordination und proaktive Kontrolle der Diagnose- und Behandlungsphasen auf Anfrage.",
       "features": {
         "consultations": "Individuelle Beratungen",
         "coordination": "Koordination medizinischer Prozesse",
@@ -1034,8 +1034,8 @@
       "features": {
         "onlinePortal": "GMED Online Portal",
         "portalAccess": "24/7-Zugang zu Ihren medizinischen Informationen",
-        "proactiveMonitoring": "Proaktives Monitoring von Terminen, Befunden und weiteren Schritten",
-        "progressDashboard": "Persönliches Online-Dashboard mit Indikatoren zum Patientenfortschritt"
+        "proactiveMonitoring": "Benachrichtigungen zu Terminen, Untersuchungsergebnissen und nächsten Schritten",
+        "progressDashboard": "Behandlungschronologie mit Historie der Termine und Untersuchungen"
       },
       "cta": "Mit GMED Care fortfahren"
     },

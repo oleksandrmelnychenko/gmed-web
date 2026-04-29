@@ -5,8 +5,8 @@ import styles from "./Faq.module.scss";
 const FAQ_ITEM_KEYS = [
   "services",
   "clinicSelection",
-  "travel",
   "documents",
+  "travel",
   "onSite",
   "start",
 ] as const;

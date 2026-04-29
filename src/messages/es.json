@@ -59,22 +59,22 @@
           "point1": "sobre opciones de tratamiento",
           "point2": "sobre clínicas especializadas y especialistas médicos",
           "point3": "basadas en necesidades y prioridades personales",
-          "item1Title": "Opciones de tratamiento",
-          "item1Text": "con evaluación de los escenarios disponibles y las posibles direcciones",
-          "item2Title": "Clínicas y especialistas médicos",
-          "item2Text": "con selección de centros especializados y profesionales relevantes",
-          "item3Title": "Necesidades y preferencias personales",
-          "item3Text": "adaptadas a la solicitud individual, expectativas y preferencias"
+          "item1Title": "Estrategia de tratamiento",
+          "item1Text": "análisis experto y selección de la estrategia de tratamiento",
+          "item2Title": "Especialistas de perfil",
+          "item2Text": "selección de centros médicos especializados y médicos altamente especializados",
+          "item3Title": "Enfoque individual",
+          "item3Text": "teniendo en cuenta las prioridades clínicas, sus expectativas y preferencias"
         },
         "coordination": {
           "title": "Coordinación de los procesos médicos",
           "point1": "desde la programación de citas hasta la alineación de cada etapa",
           "point2": "garantizando la colaboración interdisciplinaria",
           "point3": "con un claro enfoque en la eficiencia y la claridad",
-          "item1Title": "Etapas del recorrido",
-          "item1Text": "desde la programación de citas hasta la coordinación de los pasos clave del tratamiento",
+          "item1Title": "Coordinación. Organización y coordinación de todas las etapas de la visita médica.",
+          "item1Text": "",
           "item2Title": "Colaboración interdisciplinaria",
-          "item2Text": "con comunicación coordinada entre clínicas, médicos y todas las partes implicadas",
+          "item2Text": "coordinación de la comunicación entre clínicas, médicos y todas las partes implicadas",
           "item3Title": "Eficiencia y claridad",
           "item3Text": "con un proceso transparente que minimiza la carga innecesaria para el paciente"
         },
@@ -83,20 +83,20 @@
           "point1": "para informes médicos, altas y expedientes",
           "point2": "mediante la transferencia estructurada de información médica",
           "point3": "para asegurar una comunicación fluida entre todas las partes implicadas",
-          "item1Title": "Informes y expedientes",
-          "item1Text": "con gestión sistemática de documentos médicos y materiales especializados",
-          "item2Title": "Transferencia de información",
-          "item2Text": "con preparación estructurada de datos para clínicas y especialistas",
+          "item1Title": "Informes médicos",
+          "item1Text": "trabajo sistemático con informes médicos y materiales especializados",
+          "item2Title": "Estructuración de datos",
+          "item2Text": "preparación profesional y traducción de información médica para especialistas",
           "item3Title": "Comunicación entre las partes",
-          "item3Text": "para un intercambio de información preciso y coordinado en cada etapa"
+          "item3Text": "garantizar un intercambio de información preciso y coordinado en cada etapa"
         },
         "languageDigital": {
           "title": "Apoyo lingüístico y digital",
           "point1": "mediante servicios de traducción e interpretación",
           "point2": "para la traducción de documentación médica",
           "point3": "para consultas digitales y acceso a plataformas",
-          "item1Title": "Traducción e interpretación",
-          "item1Text": "con traducción escrita y oral en contexto médico",
+          "item1Title": "Traducción médica",
+          "item1Text": "traducción escrita y oral con un profundo conocimiento de la terminología médica",
           "item2Title": "Documentación médica",
           "item2Text": "con traducción de informes de alta, diagnósticos y materiales complementarios",
           "item3Title": "Plataformas en línea",
@@ -110,21 +110,21 @@
           "item1Title": "Traslado y chófer",
           "item1Text": "con servicio personalizado para desplazamientos entre todos los puntos del recorrido",
           "item2Title": "Soluciones de aviación",
-          "item2Text": "con organización de vuelos chárter y médicos cuando sea necesario",
+          "item2Text": "organización de vuelos chárter y sanitarios de cualquier complejidad",
           "item3Title": "Transporte sanitario",
-          "item3Text": "con coordinación de un traslado seguro en el formato adecuado"
+          "item3Text": "coordinación de un transporte sanitario seguro en el formato necesario"
         },
         "personalSupport": {
-          "title": "Acompañamiento personal durante toda la estancia",
+          "title": "Acompañamiento personal y servicio de concierge",
           "point1": "con servicios de concierge y lifestyle cuidadosamente seleccionados",
           "point2": "con asistencia individual en el lugar",
           "point3": "con apoyo discreto adaptado a las preferencias personales",
           "item1Title": "Servicio de concierge",
           "item1Text": "con servicios de concierge cuidadosamente seleccionados y atención a solicitudes personales",
           "item2Title": "Apoyo en el lugar",
-          "item2Text": "con asistencia individual durante la estancia y las citas",
-          "item3Title": "Preferencias personales",
-          "item3Text": "con acompañamiento discreto adaptado a sus necesidades específicas"
+          "item2Text": "asistencia individual y acompañamiento en todas las etapas de la estancia",
+          "item3Title": "Servicio individual",
+          "item3Text": "gestión discreta de cuestiones organizativas adaptada a su agenda"
         },
         "aftercare": {
           "title": "Acompañamiento tras la finalización del tratamiento",
@@ -181,12 +181,12 @@
       "delicateLabel": "Cuestiones delicadas",
       "items": {
         "services": {
-          "question": "¿Qué hace exactamente Medical Concierge Agency?",
-          "answer": "Aseguramos un ciclo completo de acompañamiento: análisis experto de documentos, selección de clínica, coordinación del proceso de tratamiento, traducción de documentación y apoyo logístico completo."
+          "question": "¿Qué hace exactamente Gmed?",
+          "answer": "Garantizamos transparencia y control: análisis experto de documentos, selección de clínica, coordinación del proceso de tratamiento, traducción de documentación y apoyo logístico completo."
         },
         "clinicSelection": {
           "question": "¿Ayudan a elegir clínica o médico en Alemania?",
-          "answer": "Sí. Sobre la base de los informes médicos y la especificidad de la solicitud, seleccionamos centros médicos especializados y médicos altamente especializados que poseen la experiencia necesaria."
+          "answer": "Sí. Sobre la base de los informes médicos de alta y la documentación proporcionada, seleccionamos centros médicos especializados y médicos altamente especializados que poseen la experiencia necesaria."
         },
         "travel": {
           "question": "¿Es necesario estar ya en Alemania para contactar con ustedes?",
@@ -194,7 +194,7 @@
         },
         "documents": {
           "question": "¿Ayudan con los documentos, la traducción y la comunicación con las clínicas?",
-          "answer": "Sí. Realizamos la traducción profesional de los informes, estructuramos el expediente médico según los estándares de las clínicas alemanas y aseguramos la comunicación completa con los médicos tratantes."
+          "answer": "Sí. Acordamos el conjunto necesario de documentos, nos encargamos de la traducción, estructuramos la información médica según los estándares de las clínicas alemanas y aseguramos la comunicación completa con los médicos tratantes."
         },
         "onSite": {
           "question": "¿Hay acompañamiento en el lugar y ayuda con el viaje?",
@@ -232,12 +232,12 @@
           "point1": "sobre opciones de tratamiento",
           "point2": "sobre clínicas especializadas y especialistas médicos",
           "point3": "basadas en necesidades y prioridades personales",
-          "item1Title": "Opciones de tratamiento",
-          "item1Text": "con evaluación de los escenarios disponibles y las posibles direcciones",
-          "item2Title": "Clínicas y especialistas médicos",
-          "item2Text": "con selección de centros especializados y profesionales relevantes",
-          "item3Title": "Necesidades y preferencias personales",
-          "item3Text": "adaptadas a la solicitud individual, expectativas y preferencias",
+          "item1Title": "Estrategia de tratamiento",
+          "item1Text": "análisis experto y selección de la estrategia de tratamiento",
+          "item2Title": "Especialistas de perfil",
+          "item2Text": "selección de centros médicos especializados y médicos altamente especializados",
+          "item3Title": "Enfoque individual",
+          "item3Text": "teniendo en cuenta las prioridades clínicas, sus expectativas y preferencias",
           "label": "Consultas individuales"
         },
         "coordination": {
@@ -245,10 +245,10 @@
           "point1": "desde la programación de citas hasta la alineación de cada etapa",
           "point2": "garantizando la colaboración interdisciplinaria",
           "point3": "con un claro enfoque en la eficiencia y la claridad",
-          "item1Title": "Etapas del recorrido",
-          "item1Text": "desde la programación de citas hasta la coordinación de los pasos clave del tratamiento",
+          "item1Title": "Coordinación. Organización y coordinación de todas las etapas de la visita médica.",
+          "item1Text": "",
           "item2Title": "Colaboración interdisciplinaria",
-          "item2Text": "con comunicación coordinada entre clínicas, médicos y todas las partes implicadas",
+          "item2Text": "coordinación de la comunicación entre clínicas, médicos y todas las partes implicadas",
           "item3Title": "Eficiencia y claridad",
           "item3Text": "con un proceso transparente que minimiza la carga innecesaria para el paciente",
           "label": "Coordinación de los procesos médicos"
@@ -258,12 +258,12 @@
           "point1": "para informes médicos, altas y expedientes",
           "point2": "mediante la transferencia estructurada de información médica",
           "point3": "para asegurar una comunicación fluida entre todas las partes implicadas",
-          "item1Title": "Informes y expedientes",
-          "item1Text": "con gestión sistemática de documentos médicos y materiales especializados",
-          "item2Title": "Transferencia de información",
-          "item2Text": "con preparación estructurada de datos para clínicas y especialistas",
+          "item1Title": "Informes médicos",
+          "item1Text": "trabajo sistemático con informes médicos y materiales especializados",
+          "item2Title": "Estructuración de datos",
+          "item2Text": "preparación profesional y traducción de información médica para especialistas",
           "item3Title": "Comunicación entre las partes",
-          "item3Text": "para un intercambio de información preciso y coordinado en cada etapa",
+          "item3Text": "garantizar un intercambio de información preciso y coordinado en cada etapa",
           "label": "Organización de documentación y comunicación"
         },
         "languageDigital": {
@@ -271,8 +271,8 @@
           "point1": "mediante servicios de traducción e interpretación",
           "point2": "para la traducción de documentación médica",
           "point3": "para consultas digitales y acceso a plataformas",
-          "item1Title": "Traducción e interpretación",
-          "item1Text": "con traducción escrita y oral en contexto médico",
+          "item1Title": "Traducción médica",
+          "item1Text": "traducción escrita y oral con un profundo conocimiento de la terminología médica",
           "item2Title": "Documentación médica",
           "item2Text": "con traducción de informes de alta, diagnósticos y materiales complementarios",
           "item3Title": "Plataformas en línea",
@@ -287,23 +287,23 @@
           "item1Title": "Traslado y chófer",
           "item1Text": "con servicio personalizado para desplazamientos entre todos los puntos del recorrido",
           "item2Title": "Soluciones de aviación",
-          "item2Text": "con organización de vuelos chárter y médicos cuando sea necesario",
+          "item2Text": "organización de vuelos chárter y sanitarios de cualquier complejidad",
           "item3Title": "Transporte sanitario",
-          "item3Text": "con coordinación de un traslado seguro en el formato adecuado",
+          "item3Text": "coordinación de un transporte sanitario seguro en el formato necesario",
           "label": "Servicios de viaje y traslado al más alto nivel"
         },
         "personalSupport": {
-          "title": "Acompañamiento personal durante toda la estancia",
+          "title": "Acompañamiento personal y servicio de concierge",
           "point1": "con servicios de concierge y lifestyle cuidadosamente seleccionados",
           "point2": "con asistencia individual en el lugar",
           "point3": "con apoyo discreto adaptado a las preferencias personales",
           "item1Title": "Servicio de concierge",
           "item1Text": "con servicios de concierge cuidadosamente seleccionados y atención a solicitudes personales",
           "item2Title": "Apoyo en el lugar",
-          "item2Text": "con asistencia individual durante la estancia y las citas",
-          "item3Title": "Preferencias personales",
-          "item3Text": "con acompañamiento discreto adaptado a sus necesidades específicas",
-          "label": "Acompañamiento personal durante toda la estancia"
+          "item2Text": "asistencia individual y acompañamiento en todas las etapas de la estancia",
+          "item3Title": "Servicio individual",
+          "item3Text": "gestión discreta de cuestiones organizativas adaptada a su agenda",
+          "label": "Acompañamiento personal y servicio de concierge"
         },
         "aftercare": {
           "title": "Acompañamiento tras la finalización del tratamiento",
@@ -968,7 +968,7 @@
     "standard": {
       "badge": "Estándar",
       "title": "GMED Standard",
-      "description": "Portal, documentos, comunicación y acompañamiento bajo demanda.",
+      "description": "Coordinación y control proactivo de las etapas de diagnóstico y tratamiento bajo solicitud.",
       "features": {
         "consultations": "Consultas individuales",
         "coordination": "Coordinación de procesos médicos",
@@ -988,8 +988,8 @@
       "features": {
         "onlinePortal": "GMED Online Portal",
         "portalAccess": "Acceso 24/7 a su información médica",
-        "proactiveMonitoring": "Monitoreo proactivo de citas, resultados de pruebas y siguientes pasos",
-        "progressDashboard": "Panel online personal con indicadores del progreso del paciente"
+        "proactiveMonitoring": "Notificaciones sobre citas, resultados de exámenes y próximos pasos",
+        "progressDashboard": "Cronología del tratamiento con el historial de visitas y exámenes"
       },
       "cta": "Continuar con GMED Care"
     },

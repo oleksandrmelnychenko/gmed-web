@@ -59,22 +59,22 @@
           "point1": "on treatment options",
           "point2": "on specialized clinics and medical experts",
           "point3": "based on personal needs and priorities",
-          "item1Title": "Treatment options",
-          "item1Text": "with an assessment of available scenarios and possible directions",
-          "item2Title": "Clinics and medical experts",
-          "item2Text": "with a selection of specialized facilities and relevant specialists",
-          "item3Title": "Personal needs and priorities",
-          "item3Text": "tailored to individual requests, expectations, and preferences"
+          "item1Title": "Treatment strategy",
+          "item1Text": "expert analysis and selection of the treatment strategy",
+          "item2Title": "Specialized experts",
+          "item2Text": "selection of specialized medical centers and highly specialized physicians",
+          "item3Title": "Individual approach",
+          "item3Text": "taking into account clinical priorities, your expectations and preferences"
         },
         "coordination": {
           "title": "Coordination of medical processes",
           "point1": "from appointment scheduling to the alignment of every step",
           "point2": "with the assurance of interdisciplinary collaboration",
           "point3": "with a clear focus on efficiency and clarity",
-          "item1Title": "Journey stages",
-          "item1Text": "from appointment scheduling to the alignment of key treatment steps",
+          "item1Title": "Coordination. Organization and alignment of all stages of the medical visit.",
+          "item1Text": "",
           "item2Title": "Interdisciplinary collaboration",
-          "item2Text": "with coordinated communication between clinics, doctors, and all parties involved",
+          "item2Text": "coordination of communication between clinics, doctors, and all parties involved",
           "item3Title": "Efficiency and clarity",
           "item3Text": "with a transparent process that minimizes unnecessary burden on the patient"
         },
@@ -83,20 +83,20 @@
           "point1": "for medical reports, discharge letters, and records",
           "point2": "through the structured transfer of medical information",
           "point3": "to ensure smooth communication between all parties involved",
-          "item1Title": "Reports and records",
-          "item1Text": "with systematic handling of medical documents and specialized materials",
-          "item2Title": "Information transfer",
-          "item2Text": "with structured data preparation for clinics and specialists",
+          "item1Title": "Medical reporting",
+          "item1Text": "systematic handling of medical reports and specialized materials",
+          "item2Title": "Data structuring",
+          "item2Text": "professional preparation and translation of medical information for specialists",
           "item3Title": "Communication between parties",
-          "item3Text": "for accurate and coordinated information exchange at every stage"
+          "item3Text": "ensuring accurate and coordinated information exchange at every stage"
         },
         "languageDigital": {
           "title": "Linguistic and digital support",
           "point1": "through translation and interpreting services",
           "point2": "for the translation of medical documentation",
           "point3": "for digital consultations and platform access",
-          "item1Title": "Translation and interpreting",
-          "item1Text": "with written and spoken translation in a medical context",
+          "item1Title": "Medical translation",
+          "item1Text": "written and spoken translation with a deep understanding of medical terminology",
           "item2Title": "Medical documentation",
           "item2Text": "with translation of discharge summaries, reports, and related materials",
           "item3Title": "Online platforms",
@@ -110,21 +110,21 @@
           "item1Title": "Transfer and chauffeur",
           "item1Text": "with a personal service for travel between all points of the journey",
           "item2Title": "Aviation solutions",
-          "item2Text": "with charter and medical flight arrangements when required",
+          "item2Text": "organization of charter and air ambulance flights of any complexity",
           "item3Title": "Medical transport",
-          "item3Text": "with coordination of safe transfer in the appropriate format"
+          "item3Text": "coordination of safe medical transport in the required format"
         },
         "personalSupport": {
-          "title": "Personal support throughout each stay",
+          "title": "Personal support and concierge service",
           "point1": "with carefully selected concierge and lifestyle services",
           "point2": "with individual assistance on site",
           "point3": "with discreet support tailored to personal preferences",
           "item1Title": "Concierge service",
           "item1Text": "with carefully selected concierge services and personal requests",
           "item2Title": "On-site support",
-          "item2Text": "with individual assistance during stays and appointments",
-          "item3Title": "Personal preferences",
-          "item3Text": "with discreet support adapted to your specific needs"
+          "item2Text": "individual assistance and support throughout all stages of the stay",
+          "item3Title": "Individual service",
+          "item3Text": "discreet handling of organizational matters, adapted to your schedule"
         },
         "aftercare": {
           "title": "Support after treatment completion",
@@ -181,12 +181,12 @@
       "delicateLabel": "Sensitive matters",
       "items": {
         "services": {
-          "question": "What exactly does the Medical Concierge Agency do?",
-          "answer": "We provide a full support cycle: expert document analysis, clinic selection, treatment coordination, translation of documentation, and full logistical support."
+          "question": "What exactly does Gmed do?",
+          "answer": "We ensure transparency and control: expert document analysis, clinic selection, treatment coordination, translation of documentation, and full logistical support."
         },
         "clinicSelection": {
           "question": "Do you help choose a clinic or doctor in Germany?",
-          "answer": "Yes. Based on medical reports and the specifics of the request, we select specialized medical centers and highly specialized doctors with the necessary expertise."
+          "answer": "Yes. Based on medical discharge summaries and the provided documentation, we select specialized medical centers and highly specialized doctors with the necessary expertise."
         },
         "travel": {
           "question": "Do I need to already be in Germany to contact you?",
@@ -194,7 +194,7 @@
         },
         "documents": {
           "question": "Do you help with documents, translation, and communication with clinics?",
-          "answer": "Yes. We carry out professional translation of reports, structure the medical dossier according to the standards of German clinics, and ensure full communication with the attending physicians."
+          "answer": "Yes. We agree on the required set of documents, handle the translation, structure the medical information according to the standards of German clinics, and ensure full communication with the attending physicians."
         },
         "onSite": {
           "question": "Is there on-site support and travel assistance?",
@@ -232,12 +232,12 @@
           "point1": "on treatment options",
           "point2": "on specialized clinics and medical experts",
           "point3": "based on personal needs and priorities",
-          "item1Title": "Treatment options",
-          "item1Text": "with an assessment of available scenarios and possible directions",
-          "item2Title": "Clinics and medical experts",
-          "item2Text": "with a selection of specialized facilities and relevant specialists",
-          "item3Title": "Personal needs and priorities",
-          "item3Text": "tailored to individual requests, expectations, and preferences",
+          "item1Title": "Treatment strategy",
+          "item1Text": "expert analysis and selection of the treatment strategy",
+          "item2Title": "Specialized experts",
+          "item2Text": "selection of specialized medical centers and highly specialized physicians",
+          "item3Title": "Individual approach",
+          "item3Text": "taking into account clinical priorities, your expectations and preferences",
           "label": "Individual guidance"
         },
         "coordination": {
@@ -245,10 +245,10 @@
           "point1": "from appointment scheduling to the alignment of every step",
           "point2": "with the assurance of interdisciplinary collaboration",
           "point3": "with a clear focus on efficiency and clarity",
-          "item1Title": "Journey stages",
-          "item1Text": "from appointment scheduling to the alignment of key treatment steps",
+          "item1Title": "Coordination. Organization and alignment of all stages of the medical visit.",
+          "item1Text": "",
           "item2Title": "Interdisciplinary collaboration",
-          "item2Text": "with coordinated communication between clinics, doctors, and all parties involved",
+          "item2Text": "coordination of communication between clinics, doctors, and all parties involved",
           "item3Title": "Efficiency and clarity",
           "item3Text": "with a transparent process that minimizes unnecessary burden on the patient",
           "label": "Coordination of medical processes"
@@ -258,12 +258,12 @@
           "point1": "for medical reports, discharge letters, and records",
           "point2": "through the structured transfer of medical information",
           "point3": "to ensure smooth communication between all parties involved",
-          "item1Title": "Reports and records",
-          "item1Text": "with systematic handling of medical documents and specialized materials",
-          "item2Title": "Information transfer",
-          "item2Text": "with structured data preparation for clinics and specialists",
+          "item1Title": "Medical reporting",
+          "item1Text": "systematic handling of medical reports and specialized materials",
+          "item2Title": "Data structuring",
+          "item2Text": "professional preparation and translation of medical information for specialists",
           "item3Title": "Communication between parties",
-          "item3Text": "for accurate and coordinated information exchange at every stage",
+          "item3Text": "ensuring accurate and coordinated information exchange at every stage",
           "label": "Organization of documentation and communication"
         },
         "languageDigital": {
@@ -271,8 +271,8 @@
           "point1": "through translation and interpreting services",
           "point2": "for the translation of medical documentation",
           "point3": "for digital consultations and platform access",
-          "item1Title": "Translation and interpreting",
-          "item1Text": "with written and spoken translation in a medical context",
+          "item1Title": "Medical translation",
+          "item1Text": "written and spoken translation with a deep understanding of medical terminology",
           "item2Title": "Medical documentation",
           "item2Text": "with translation of discharge summaries, reports, and related materials",
           "item3Title": "Online platforms",
@@ -287,23 +287,23 @@
           "item1Title": "Transfer and chauffeur",
           "item1Text": "with a personal service for travel between all points of the journey",
           "item2Title": "Aviation solutions",
-          "item2Text": "with charter and medical flight arrangements when required",
+          "item2Text": "organization of charter and air ambulance flights of any complexity",
           "item3Title": "Medical transport",
-          "item3Text": "with coordination of safe transfer in the appropriate format",
+          "item3Text": "coordination of safe medical transport in the required format",
           "label": "Travel and transfer services to the highest standard"
         },
         "personalSupport": {
-          "title": "Personal support throughout each stay",
+          "title": "Personal support and concierge service",
           "point1": "with carefully selected concierge and lifestyle services",
           "point2": "with individual assistance on site",
           "point3": "with discreet support tailored to personal preferences",
           "item1Title": "Concierge service",
           "item1Text": "with carefully selected concierge services and personal requests",
           "item2Title": "On-site support",
-          "item2Text": "with individual assistance during stays and appointments",
-          "item3Title": "Personal preferences",
-          "item3Text": "with discreet support adapted to your specific needs",
-          "label": "Personal support throughout each stay"
+          "item2Text": "individual assistance and support throughout all stages of the stay",
+          "item3Title": "Individual service",
+          "item3Text": "discreet handling of organizational matters, adapted to your schedule",
+          "label": "Personal support and concierge service"
         },
         "aftercare": {
           "title": "Support after treatment completion",
@@ -968,7 +968,7 @@
     "standard": {
       "badge": "Standard",
       "title": "GMED Standard",
-      "description": "Portal access, documents, communication, and support on demand.",
+      "description": "Coordination and proactive control of diagnostic and treatment stages on request.",
       "features": {
         "consultations": "Individual consultations",
         "coordination": "Coordination of medical processes",
@@ -988,8 +988,8 @@
       "features": {
         "onlinePortal": "GMED Online Portal",
         "portalAccess": "Access to your medical information 24/7",
-        "proactiveMonitoring": "Proactive monitoring of appointments, test results, and next steps",
-        "progressDashboard": "Personal online dashboard with patient progress indicators"
+        "proactiveMonitoring": "Notifications about appointments, examination results, and next steps",
+        "progressDashboard": "Treatment timeline with history of visits and examinations"
       },
       "cta": "Continue with GMED Care"
     },
