@@ -127,16 +127,16 @@
           "item3Text": "con acompañamiento discreto adaptado a sus necesidades específicas"
         },
         "aftercare": {
-          "title": "Acompañamiento continuo más allá del tratamiento",
+          "title": "Acompañamiento tras la finalización del tratamiento",
           "point1": "mediante la coordinación del seguimiento y la rehabilitación",
-          "point2": "mediante consultas de seguimiento",
+          "point2": "mediante el contacto a distancia con los médicos tratantes",
           "point3": "mediante una planificación y control transparente de los gastos",
           "item1Title": "Seguimiento y rehabilitación",
-          "item1Text": "con coordinación del acompañamiento médico continuo",
-          "item2Title": "Consultas de seguimiento",
-          "item2Text": "con organización de contactos adicionales con especialistas",
+          "item1Text": "organización de la continuidad del tratamiento y los programas de rehabilitación",
+          "item2Title": "Contacto a distancia",
+          "item2Text": "mantenimiento del contacto con los médicos tratantes tras el regreso a casa",
           "item3Title": "Costes y planificación",
-          "item3Text": "con control presupuestario transparente y próximos pasos"
+          "item3Text": "control presupuestario transparente y elaboración del calendario de revisiones"
         }
       }
     },
@@ -170,7 +170,7 @@
         "digitalPortal": "Portal digital para clientes",
         "security": "Altos estándares de seguridad informática",
         "concierge": "Servicios de concierge y lifestyle",
-        "coordination": "Coordinación eficiente",
+        "coordination": "Coordinación interdisciplinaria eficiente",
         "international": "Acompañamiento internacional desde una sola fuente"
       }
     },
@@ -217,7 +217,7 @@
         "digitalPortal": "Portal digital para clientes",
         "security": "Altos estándares de seguridad informática",
         "concierge": "Servicios de concierge y lifestyle",
-        "coordination": "Coordinación eficiente",
+        "coordination": "Coordinación interdisciplinaria eficiente",
         "international": "Acompañamiento internacional desde una sola fuente"
       }
     },
@@ -306,17 +306,17 @@
           "label": "Acompañamiento personal durante toda la estancia"
         },
         "aftercare": {
-          "title": "Acompañamiento continuo más allá del tratamiento",
+          "title": "Acompañamiento tras la finalización del tratamiento",
           "point1": "mediante la coordinación del seguimiento y la rehabilitación",
-          "point2": "mediante consultas de seguimiento",
+          "point2": "mediante el contacto a distancia con los médicos tratantes",
           "point3": "mediante una planificación y control transparente de los gastos",
           "item1Title": "Seguimiento y rehabilitación",
-          "item1Text": "con coordinación del acompañamiento médico continuo",
-          "item2Title": "Consultas de seguimiento",
-          "item2Text": "con organización de contactos adicionales con especialistas",
+          "item1Text": "organización de la continuidad del tratamiento y los programas de rehabilitación",
+          "item2Title": "Contacto a distancia",
+          "item2Text": "mantenimiento del contacto con los médicos tratantes tras el regreso a casa",
           "item3Title": "Costes y planificación",
-          "item3Text": "con control presupuestario transparente y próximos pasos",
-          "label": "Acompañamiento continuo más allá del tratamiento"
+          "item3Text": "control presupuestario transparente y elaboración del calendario de revisiones",
+          "label": "Acompañamiento tras la finalización del tratamiento"
         }
       }
     },
@@ -983,7 +983,7 @@
     "care": {
       "badge": "Recomendado",
       "title": "GMED Care",
-      "description": "Portal, coordinación y control proactivo de las etapas del tratamiento.",
+      "description": "Portal en línea.",
       "includesStandard": "Incluye todo lo de GMED Standard, además de:",
       "features": {
         "onlinePortal": "GMED Online Portal",

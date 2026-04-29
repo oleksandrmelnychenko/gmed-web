@@ -127,16 +127,16 @@
           "item3Text": "mit diskreter Begleitung, angepasst an Ihre Anforderungen"
         },
         "aftercare": {
-          "title": "Nachsorge und Begleitung über die Behandlung hinaus",
+          "title": "Begleitung nach Abschluss der Behandlung",
           "point1": "durch Koordination von Nachsorge und Rehabilitation",
-          "point2": "durch Follow-up-Beratungen",
+          "point2": "durch Fernkontakt zu den behandelnden Ärzten",
           "point3": "durch transparente Kostenkontrolle und Planung",
           "item1Title": "Nachsorge und Rehabilitation",
-          "item1Text": "mit Koordination der weiterführenden medizinischen Betreuung",
-          "item2Title": "Folgeberatungen",
-          "item2Text": "mit Organisation weiterer Kontakte zu Spezialisten",
+          "item1Text": "Koordination der Behandlungskontinuität und der Rehabilitationsprogramme",
+          "item2Title": "Fernkontakt",
+          "item2Text": "Aufrechterhaltung des Kontakts zu den behandelnden Ärzten nach der Rückkehr nach Hause",
           "item3Title": "Kosten und Planung",
-          "item3Text": "mit transparenter Budgetkontrolle und nächsten Schritten"
+          "item3Text": "transparente Budgetkontrolle und Erstellung eines Zeitplans für Nachsorgeuntersuchungen"
         }
       }
     },
@@ -170,7 +170,7 @@
         "digitalPortal": "Digitales Kundenportal",
         "security": "Hohe IT-Sicherheitsstandards",
         "concierge": "Concierge- und Lifestyle-Services",
-        "coordination": "Effiziente Koordination",
+        "coordination": "Effiziente interdisziplinäre Koordination",
         "international": "Internationale Begleitung aus einer Hand"
       },
       "programComparison": {
@@ -240,7 +240,7 @@
         "digitalPortal": "Digitales Kundenportal",
         "security": "Hohe IT-Sicherheitsstandards",
         "concierge": "Concierge- und Lifestyle-Services",
-        "coordination": "Effiziente Koordination",
+        "coordination": "Effiziente interdisziplinäre Koordination",
         "international": "Internationale Begleitung aus einer Hand"
       },
       "programComparison": {
@@ -352,17 +352,17 @@
           "label": "Persönliche Begleitung während des Aufenthalts"
         },
         "aftercare": {
-          "title": "Nachsorge und Begleitung über die Behandlung hinaus",
+          "title": "Begleitung nach Abschluss der Behandlung",
           "point1": "durch Koordination von Nachsorge und Rehabilitation",
-          "point2": "durch Follow-up-Beratungen",
+          "point2": "durch Fernkontakt zu den behandelnden Ärzten",
           "point3": "durch transparente Kostenkontrolle und Planung",
           "item1Title": "Nachsorge und Rehabilitation",
-          "item1Text": "mit Koordination der weiterführenden medizinischen Betreuung",
-          "item2Title": "Folgeberatungen",
-          "item2Text": "mit Organisation weiterer Kontakte zu Spezialisten",
+          "item1Text": "Koordination der Behandlungskontinuität und der Rehabilitationsprogramme",
+          "item2Title": "Fernkontakt",
+          "item2Text": "Aufrechterhaltung des Kontakts zu den behandelnden Ärzten nach der Rückkehr nach Hause",
           "item3Title": "Kosten und Planung",
-          "item3Text": "mit transparenter Budgetkontrolle und nächsten Schritten",
-          "label": "Nachsorge und Begleitung über die Behandlung hinaus"
+          "item3Text": "transparente Budgetkontrolle und Erstellung eines Zeitplans für Nachsorgeuntersuchungen",
+          "label": "Begleitung nach Abschluss der Behandlung"
         }
       }
     },
@@ -1029,7 +1029,7 @@
     "care": {
       "badge": "Empfohlen",
       "title": "GMED Care",
-      "description": "Portalzugang, Koordination und proaktive Steuerung der Behandlungsschritte.",
+      "description": "Online-Portal.",
       "includesStandard": "Beinhaltet alles aus GMED Standard sowie:",
       "features": {
         "onlinePortal": "GMED Online Portal",

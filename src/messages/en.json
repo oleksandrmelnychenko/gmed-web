@@ -127,16 +127,16 @@
           "item3Text": "with discreet support adapted to your specific needs"
         },
         "aftercare": {
-          "title": "Ongoing support beyond treatment",
+          "title": "Support after treatment completion",
           "point1": "through aftercare and rehabilitation coordination",
-          "point2": "through follow-up consultations",
+          "point2": "through remote communication with treating physicians",
           "point3": "through transparent cost control and planning",
           "item1Title": "Follow-up and rehabilitation",
-          "item1Text": "with coordination of ongoing medical support",
-          "item2Title": "Follow-up consultations",
-          "item2Text": "with organization of further contact with specialists",
+          "item1Text": "coordinating treatment continuity and rehabilitation programs",
+          "item2Title": "Remote communication",
+          "item2Text": "maintaining contact with treating physicians after returning home",
           "item3Title": "Costs and planning",
-          "item3Text": "with transparent budget control and next steps"
+          "item3Text": "transparent budget control and scheduling of follow-up examinations"
         }
       }
     },
@@ -170,7 +170,7 @@
         "digitalPortal": "Digital client portal",
         "security": "High IT security standards for the protection of sensitive data",
         "concierge": "Concierge and lifestyle services",
-        "coordination": "Efficient coordination",
+        "coordination": "Efficient interdisciplinary coordination",
         "international": "International support from a single source"
       }
     },
@@ -217,7 +217,7 @@
         "digitalPortal": "Digital client portal",
         "security": "High IT security standards for the protection of sensitive data",
         "concierge": "Concierge and lifestyle services",
-        "coordination": "Efficient coordination",
+        "coordination": "Efficient interdisciplinary coordination",
         "international": "International support from a single source"
       }
     },
@@ -306,17 +306,17 @@
           "label": "Personal support throughout each stay"
         },
         "aftercare": {
-          "title": "Ongoing support beyond treatment",
+          "title": "Support after treatment completion",
           "point1": "through aftercare and rehabilitation coordination",
-          "point2": "through follow-up consultations",
+          "point2": "through remote communication with treating physicians",
           "point3": "through transparent cost control and planning",
           "item1Title": "Follow-up and rehabilitation",
-          "item1Text": "with coordination of ongoing medical support",
-          "item2Title": "Follow-up consultations",
-          "item2Text": "with organization of further contact with specialists",
+          "item1Text": "coordinating treatment continuity and rehabilitation programs",
+          "item2Title": "Remote communication",
+          "item2Text": "maintaining contact with treating physicians after returning home",
           "item3Title": "Costs and planning",
-          "item3Text": "with transparent budget control and next steps",
-          "label": "Ongoing support beyond treatment"
+          "item3Text": "transparent budget control and scheduling of follow-up examinations",
+          "label": "Support after treatment completion"
         }
       }
     },
@@ -983,7 +983,7 @@
     "care": {
       "badge": "Recommended",
       "title": "GMED Care",
-      "description": "Portal access, coordination, and proactive control of treatment stages.",
+      "description": "Online portal.",
       "includesStandard": "Includes everything in GMED Standard, plus:",
       "features": {
         "onlinePortal": "GMED Online Portal",
