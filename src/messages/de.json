@@ -120,10 +120,10 @@
           "point2": "mit individueller Unterstützung vor Ort",
           "point3": "mit diskreter Betreuung nach persönlichen Anforderungen",
           "item1Title": "Concierge-Service",
-          "item1Text": "mit sorgfältig ausgewählten Concierge-Leistungen und persönlichem Service",
+          "item1Text": "mit individuell ausgewählten Concierge-Leistungen und persönlichem Service",
           "item2Title": "Unterstützung vor Ort",
-          "item2Text": "individuelle Hilfe und Begleitung in allen Phasen des Aufenthalts",
-          "item3Title": "Individueller Service",
+          "item2Text": "Hilfe und Begleitung in allen Phasen des Aufenthalts",
+          "item3Title": "Persönlicher Service",
           "item3Text": "diskrete Lösung organisatorischer Aufgaben, angepasst an Ihren Zeitplan"
         },
         "aftercare": {
@@ -205,7 +205,7 @@
       "items": {
         "services": {
           "question": "Was genau macht Gmed?",
-          "answer": "Wir gewährleisten Transparenz und Kontrolle: Expertenanalyse von Dokumenten, Klinikauswahl, Koordination des Behandlungsprozesses, Übersetzung der Dokumentation und vollständige logistische Unterstützung."
+          "answer": "Wir bieten einen vollständigen Betreuungszyklus: Expertenanalyse von Dokumenten, Klinikauswahl, Koordination des Behandlungsprozesses, Übersetzung der Dokumentation und vollständige logistische Unterstützung."
         },
         "clinicSelection": {
           "question": "Helfen Sie bei der Auswahl einer Klinik oder eines Arztes in Deutschland?",
@@ -344,10 +344,10 @@
           "point2": "mit individueller Unterstützung vor Ort",
           "point3": "mit diskreter Betreuung nach persönlichen Anforderungen",
           "item1Title": "Concierge-Service",
-          "item1Text": "mit sorgfältig ausgewählten Concierge-Leistungen und persönlichem Service",
+          "item1Text": "mit individuell ausgewählten Concierge-Leistungen und persönlichem Service",
           "item2Title": "Unterstützung vor Ort",
-          "item2Text": "individuelle Hilfe und Begleitung in allen Phasen des Aufenthalts",
-          "item3Title": "Individueller Service",
+          "item2Text": "Hilfe und Begleitung in allen Phasen des Aufenthalts",
+          "item3Title": "Persönlicher Service",
           "item3Text": "diskrete Lösung organisatorischer Aufgaben, angepasst an Ihren Zeitplan",
           "label": "Persönliche Begleitung und Concierge-Service"
         },

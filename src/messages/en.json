@@ -72,7 +72,7 @@
           "point2": "with the assurance of interdisciplinary collaboration",
           "point3": "with a clear focus on efficiency and clarity",
           "item1Title": "Coordination",
-          "item1Text": "Organization and alignment of all stages of the medical visit.",
+          "item1Text": "organization and alignment of all stages of the medical visit.",
           "item2Title": "Interdisciplinary collaboration",
           "item2Text": "coordination of communication between clinics, doctors, and all parties involved",
           "item3Title": "Efficiency and clarity",
@@ -120,10 +120,10 @@
           "point2": "with individual assistance on site",
           "point3": "with discreet support tailored to personal preferences",
           "item1Title": "Concierge service",
-          "item1Text": "with carefully selected concierge services and personal requests",
+          "item1Text": "with individually selected concierge services and personal requests",
           "item2Title": "On-site support",
-          "item2Text": "individual assistance and support throughout all stages of the stay",
-          "item3Title": "Individual service",
+          "item2Text": "assistance and support throughout all stages of the stay",
+          "item3Title": "Personal service",
           "item3Text": "discreet handling of organizational matters, adapted to your schedule"
         },
         "aftercare": {
@@ -182,7 +182,7 @@
       "items": {
         "services": {
           "question": "What exactly does Gmed do?",
-          "answer": "We ensure transparency and control: expert document analysis, clinic selection, treatment coordination, translation of documentation, and full logistical support."
+          "answer": "We provide a full support cycle: expert document analysis, clinic selection, treatment coordination, translation of documentation, and full logistical support."
         },
         "clinicSelection": {
           "question": "Do you help choose a clinic or doctor in Germany?",
@@ -246,7 +246,7 @@
           "point2": "with the assurance of interdisciplinary collaboration",
           "point3": "with a clear focus on efficiency and clarity",
           "item1Title": "Coordination",
-          "item1Text": "Organization and alignment of all stages of the medical visit.",
+          "item1Text": "organization and alignment of all stages of the medical visit.",
           "item2Title": "Interdisciplinary collaboration",
           "item2Text": "coordination of communication between clinics, doctors, and all parties involved",
           "item3Title": "Efficiency and clarity",
@@ -298,10 +298,10 @@
           "point2": "with individual assistance on site",
           "point3": "with discreet support tailored to personal preferences",
           "item1Title": "Concierge service",
-          "item1Text": "with carefully selected concierge services and personal requests",
+          "item1Text": "with individually selected concierge services and personal requests",
           "item2Title": "On-site support",
-          "item2Text": "individual assistance and support throughout all stages of the stay",
-          "item3Title": "Individual service",
+          "item2Text": "assistance and support throughout all stages of the stay",
+          "item3Title": "Personal service",
           "item3Text": "discreet handling of organizational matters, adapted to your schedule",
           "label": "Personal support and concierge service"
         },

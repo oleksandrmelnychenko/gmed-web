@@ -72,7 +72,7 @@
           "point2": "garantizando la colaboración interdisciplinaria",
           "point3": "con un claro enfoque en la eficiencia y la claridad",
           "item1Title": "Coordinación",
-          "item1Text": "Organización y coordinación de todas las etapas de la visita médica.",
+          "item1Text": "organización y coordinación de todas las etapas de la visita médica.",
           "item2Title": "Colaboración interdisciplinaria",
           "item2Text": "coordinación de la comunicación entre clínicas, médicos y todas las partes implicadas",
           "item3Title": "Eficiencia y claridad",
@@ -120,10 +120,10 @@
           "point2": "con asistencia individual en el lugar",
           "point3": "con apoyo discreto adaptado a las preferencias personales",
           "item1Title": "Servicio de concierge",
-          "item1Text": "con servicios de concierge cuidadosamente seleccionados y atención a solicitudes personales",
+          "item1Text": "con servicios de concierge seleccionados individualmente y atención a solicitudes personales",
           "item2Title": "Apoyo en el lugar",
-          "item2Text": "asistencia individual y acompañamiento en todas las etapas de la estancia",
-          "item3Title": "Servicio individual",
+          "item2Text": "asistencia y acompañamiento en todas las etapas de la estancia",
+          "item3Title": "Servicio personal",
           "item3Text": "gestión discreta de cuestiones organizativas adaptada a su agenda"
         },
         "aftercare": {
@@ -182,7 +182,7 @@
       "items": {
         "services": {
           "question": "¿Qué hace exactamente Gmed?",
-          "answer": "Garantizamos transparencia y control: análisis experto de documentos, selección de clínica, coordinación del proceso de tratamiento, traducción de documentación y apoyo logístico completo."
+          "answer": "Aseguramos un ciclo completo de acompañamiento: análisis experto de documentos, selección de clínica, coordinación del proceso de tratamiento, traducción de documentación y apoyo logístico completo."
         },
         "clinicSelection": {
           "question": "¿Ayudan a elegir clínica o médico en Alemania?",
@@ -246,7 +246,7 @@
           "point2": "garantizando la colaboración interdisciplinaria",
           "point3": "con un claro enfoque en la eficiencia y la claridad",
           "item1Title": "Coordinación",
-          "item1Text": "Organización y coordinación de todas las etapas de la visita médica.",
+          "item1Text": "organización y coordinación de todas las etapas de la visita médica.",
           "item2Title": "Colaboración interdisciplinaria",
           "item2Text": "coordinación de la comunicación entre clínicas, médicos y todas las partes implicadas",
           "item3Title": "Eficiencia y claridad",
@@ -298,10 +298,10 @@
           "point2": "con asistencia individual en el lugar",
           "point3": "con apoyo discreto adaptado a las preferencias personales",
           "item1Title": "Servicio de concierge",
-          "item1Text": "con servicios de concierge cuidadosamente seleccionados y atención a solicitudes personales",
+          "item1Text": "con servicios de concierge seleccionados individualmente y atención a solicitudes personales",
           "item2Title": "Apoyo en el lugar",
-          "item2Text": "asistencia individual y acompañamiento en todas las etapas de la estancia",
-          "item3Title": "Servicio individual",
+          "item2Text": "asistencia y acompañamiento en todas las etapas de la estancia",
+          "item3Title": "Servicio personal",
           "item3Text": "gestión discreta de cuestiones organizativas adaptada a su agenda",
           "label": "Acompañamiento personal y servicio de concierge"
         },
