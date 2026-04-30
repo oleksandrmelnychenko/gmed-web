@@ -55,7 +55,7 @@ export async function Footer({ locale }: FooterProps) {
           <div className={styles.utilityRow}>
             <div className={styles.utilityLeft}>
               <div className={styles.bottomBar}>
-                <p>{t("copyright", { year: 2026 })}. {t("allRightsReserved")}.</p>
+                <p>{t("copyright", { year: 2026 })}</p>
               </div>
               <div className={styles.legalBar}>
                 <Link href="/privacy-policy" locale={locale} className={styles.legalLink}>
